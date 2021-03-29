@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="apps_clear_cache">
+    <item quantity="other">Πρόκειται να καθαρίσετε την προσωρινή μνήμη απο %d εφαρμογές</item>
+    <item quantity="one">Πρόκειται να καθαρίσετε την προσωρινή μνήμη απο %d εφαρμογή</item>
+  </plurals>
+  <plurals name="apps_clear_data">
+    <item quantity="other">Πρόκειται να καθαρίσετε τα δεδομένα απο %d εφαρμογές</item>
+    <item quantity="one">Πρόκειται να καθαρίσετε τα δεδομένα απο %d εφαρμογή</item>
+  </plurals>
+  <plurals name="apps_disable">
+    <item quantity="other">Πρόκειται να απενεργοποιήσετε %d εφαρμογές</item>
+    <item quantity="one">Πρόκειται να απενεργοποιήσετε %d εφαρμογή</item>
+  </plurals>
+  <plurals name="apps_enable">
+    <item quantity="other">Πρόκειται να ενεργοποιήσετε %d εφαρμογές</item>
+    <item quantity="one">Πρόκειται να ενεργοποιήσετε %d εφαρμογή</item>
+  </plurals>
+  <plurals name="apps_selected">
+    <item quantity="other">%d επιλεγμένες εφαρμογές</item>
+    <item quantity="one">%d επιλεγμένη εφαρμογή</item>
+  </plurals>
+  <plurals name="apps_uninstall">
+    <item quantity="other">Πρόκειται να απεγκαταστήσετε %d εφαρμογές</item>
+    <item quantity="one">Πρόκειται να απεγκαταστήσετε %d εφαρμογή</item>
+  </plurals>
+</resources>

@@ -1,0 +1,283 @@
+<resources>
+    <!--Main Activity-->
+    <string name="app_name">ToolCase</string>
+    <string name="action_pro">Werbung entfernen</string>
+    <string name="action_about">Über Root ToolCase</string>
+    <string name="action_translate">Übersetzen</string>
+    <string name="action_account">Benutzerkonto</string>
+    <string name="action_follow">Folgen</string>
+    <string name="action_share">Teilen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_advanced_reboot">Erweiterter Neustart</string>
+    <string name="title_initd">Init.d Emulator</string>
+    <string name="title_root">ROOT ERFORDERLICH</string>
+    <string name="title_flasher">Flash Wizard</string>
+    <string name="title_buildprop">Build.prop Editor</string>
+    <string name="title_misc">Diverse</string>
+    <string name="title_activity_app_manager">App Manager</string>
+    <string name="title_activity_app">App Info</string>
+    <string name="title_activity_reboot">Erweiterter Neustart</string>
+    <string name="title_activity_init_d">Init.d Emulator</string>
+    <string name="title_activity_editor">Editor</string>
+    <string name="title_activity_build_prop">Build.prop Editor</string>
+    <string name="title_activity_misc">Diverse Tools</string>
+    <string name="alert_translate_title">App-Übersetzung</string>
+    <string name="alert_translate_message">Wollen Sie zur Übersetzung dieser App in Ihrer Landessprache beitragen?</string>
+    <string name="alert_translate_yes">Ich bin dabei</string>
+    <string name="alert_translate_no">Nein, danke</string>
+    <string name="summary_app_manager">Verwalten Sie Ihre Apps</string>
+    <string name="summary_app_manager_expert">Benutzer- und Systemapps verwalten</string>
+    <string name="summary_reboot">Neustart, ins Recovery oder in den Bootloader starten</string>
+    <string name="summary_root">Diese App erfordert Rootrechte, um ordnungsgemäß zu funktionieren. Für weitere Informationen hier klicken!</string>
+    <string name="summary_buildprop">Buildeigenschaften Ihrer ROM bearbeiten</string>
+    <string name="summary_misc">Diverse Tools</string>
+    <string name="summary_initd">Skripte beim Systemstart ausführen</string>
+    <string name="alert_premium">Danke, dass Sie sich für die Premiumversion entschieden haben!</string>
+    <string name="alert_twitter_title">Root ToolCase auf Twitter</string>
+    <string name="alert_twitter_message">Root ToolCase ist jetzt auf Twitter!\n\nFolgen Sie uns, um über App-Updates etc. auf dem Laufenden zu bleiben!</string>
+    <string name="alert_upgrade_title">Upgrade</string>
+    <string name="message_share">"Sieh dir \"%s\" an: "</string>
+    <string name="alert_upgrade_message">Wollen Sie ein Upgrade auf die werbefreie Version durchführen?</string>
+    <string name="ad_failed">Bitte aktualisieren Sie auf die werbefreie Version, um den Entwickler zu unterstützen</string>
+
+    <!--Flash Wizard-->
+
+    <!--App Manager-->
+    <string name="apps_total">Alle Apps (%1$d)</string>
+    <string name="apps_system">Systemapps (%1$d)</string>
+    <string name="apps_user">Benutzerapps (%1$d)</string>
+    <string name="apps_frozen">Deaktivierte Apps (%1$d)</string>
+    <string name="apps_updated">Aktualisierte Systemapps (%1$d)</string>
+    <string name="apps_search">%1$d Apps gefunden</string>
+    <string name="apps_fromlist">%1$s (%2$d)</string>
+    <string name="apps_init">Installierte Apps werden analysiert. Einen Moment…</string>
+    <string name="apps_init_size">Dateigrößen werden berechnet. Einen Moment…</string>
+    <string name="apps_sizeinfo">%1$.1f MB</string>
+    <string name="apps_label_app">"App: "</string>
+    <string name="apps_label_data">"Daten: "</string>
+    <string name="action_filter_all">Alle</string>
+    <string name="action_filter_system">Systemapps</string>
+    <string name="action_filter_user">Benutzerapps</string>
+    <string name="action_filter_frozen">Deaktivierte Apps</string>
+    <string name="action_filter_updated">Aktualisierte Systemapps</string>
+    <string name="action_filter_custom">Eigene Liste</string>
+    <string name="action_sort_by_name">Nach Namen sortieren</string>
+    <string name="action_sort_by_package">Nach Paketnamen sortieren</string>
+    <string name="action_sort_by_appsize">Nach APK-Größe sortieren</string>
+    <string name="action_sort_by_datasize">Nach Datengröße sortieren</string>
+    <string name="action_sort_by_totalsize">Nach Gesamtgröße sortieren</string>
+    <string name="action_title">Wählen Sie eine Aktion</string>
+    <string name="action_uninstall">Deinstallieren</string>
+    <string name="action_freeze">Deaktivieren</string>
+    <string name="action_unfreeze">Aktivieren</string>
+    <string name="action_clear_data">Daten löschen</string>
+    <string name="action_clear_cache">Cache löschen</string>
+    <string name="action_multiselect">Mehrfachauswahl</string>
+    <string name="action_customlist">Zu einer Liste hinzufügen</string>
+    <string name="app_updated">AKTUALISIERT</string>
+    <string name="app_disabled">DEAKTIVIERT</string>
+    <string name="appinfo_name">Name:</string>
+    <string name="appinfo_pkg">Paketname:</string>
+    <string name="appinfo_status">Status:</string>
+    <string name="appinfo_version">Version:</string>
+    <string name="appinfo_path">Pfad:</string>
+    <string name="appinfo_memory">Speicherbelegung</string>
+    <string name="meminfo_total">Gesamt:</string>
+    <string name="meminfo_apk">APK:</string>
+    <string name="meminfo_odex">Odex:</string>
+    <string name="meminfo_libs">Libs:</string>
+    <string name="meminfo_data">Daten:</string>
+    <string name="meminfo_extdata">Daten (ext.):</string>
+    <string name="meminfo_cache">Cache:</string>
+    <string name="alert_data_title">Appdaten löschen</string>
+    <string name="alert_data_message">Alle Appdaten werden dauerhaft gelöscht, inklusive Appeinstellungen, Dateien etc.</string>
+    <string name="alert_uninstall_title">App deinstallieren</string>
+    <string name="alert_uninstall_system_title">Systemapp deinstallieren</string>
+    <string name="alert_uninstall_message">Wollen Sie diese App wirklich deinstallieren?</string>
+    <string name="alert_uninstall_system_message">Wollen Sie diese <b>SYSTEMAPP</b> wirklich deinstallieren?\nWenn Sie die falsche App deinstallieren, funktioniert Ihr System möglicherweise nicht mehr ordnungsgemäß. In diesem Fall müssen Sie Ihre ROM neu installieren.</string>
+    <string name="alert_uninstalling">Wird deinstalliert…</string>
+    <string name="alert_enabling">Wird aktiviert…</string>
+    <string name="alert_disabling">Wird deaktiviert…</string>
+    <string name="alert_clear_data">Appdaten werden gelöscht…</string>
+    <string name="alert_clear_cache">Cache wird gelöscht…</string>
+    <string name="alert_title_config">Flashoptionen</string>
+    <string name="alert_list">Liste wählen</string>
+    <string name="alert_newlist">Neue Liste erstellen</string>
+    <string name="alert_newlist_title">Neue Liste</string>
+    <string name="alert_newlist_message">Geben Sie einen Namen für die benutzerdefinierte Liste ein</string>
+    <string name="search_hint">APK suchen</string>
+    <string name="toast_uninstall_success">%1$s wurde erfolgreich deinstalliert</string>
+    <string name="toast_newlist_success">\"%1$s\" erfolgreich erstellt</string>
+    <string name="toast_updatelist_success">\"%1$s\" erfolgreich aktualisiert</string>
+    <string name="toast_newlist_failed">Fehler beim Erstellen der Liste</string>
+    <string name="alert_attention">Achtung</string>
+    <string name="alert_cache_title">Appcache löschen</string>
+    <string name="alert_continue">Fortsetzen</string>
+    <string name="alert_freeze_title">Apps deaktivieren</string>
+    <string name="alert_progress">%1$s (%2$d/%3$d)</string>
+    <string name="alert_multiuninstall_na">Das Deinstallieren mehrerer Systemapps auf einmal birgt das Risko, Ihre ROM zu beschädigen.\n\nBitte treffen Sie eine andere Auswahl ohne Systemapps.</string>
+    <string name="alert_multifreeze_na">Das Deaktivieren mehrerer Systemapps auf einmal birgt das Risko, Ihre ROM zu beschädigen.\n\nBitte treffen Sie eine andere Auswahl ohne Systemapps.</string>
+    <string name="alert_unfreeze_title">Apps aktivieren</string>
+    <string name="action_delete_list">Aktuelle Liste löschen</string>
+    <string name="alert_nolist_message">Keine benutzderdefinierte Liste gefunden</string>
+    <string name="alert_play_ad">Video ansehen</string>
+    <string name="alert_premium_title">Premiumfunktion</string>
+    <string name="alert_premium_message">Dies ist eine Premiumfunktion. Bitte kaufen Sie die werbefreie Version.\n\nStattdessen können Sie sich auch ein Werbevideo ansehen, um diese Funktion für die aktuelle Sitzung freizuschalten.</string>
+    <string name="alert_upgrade">Kaufen</string>
+    <string name="toast_error_videoad">Werbespot konnte nicht geladen werden. Bitte überprüfen Sie Ihre Internetverbindung und Werbeblockereinstellungen und versuchen Sie es noch einmal!</string>
+    <string name="toast_error_nolist">Keine Liste gefunden</string>
+
+    <!--Advanced reboot-->
+    <string name="reboot_title">Neustart</string>
+    <string name="reboot_summary">Gerät neu starten</string>
+    <string name="reboot_soft_title">Schneller Neustart</string>
+    <string name="reboot_soft_summary">Androidsystem neu starten</string>
+    <string name="reboot_recovery_title">Neustart ins Recovery</string>
+    <string name="reboot_recovery_summary">Gerät im Recoverymodus starten</string>
+    <string name="reboot_fastboot_title">Neustart in den Bootloader</string>
+    <string name="reboot_fastboot_summary">Gerät im Download- bzw. Fastbootmodus starten</string>
+    <string name="reboot_poweroff_title">Ausschalten</string>
+    <string name="reboot_poweroff_summary">Gerät ausschalten</string>
+    <string name="alert_reboot">Wird neu gestartet…</string>
+    <string name="alert_reboot_soft">Android wird neu gestartet…</string>
+    <string name="alert_reboot_recovery">Neustart ins Recovery…</string>
+    <string name="alert_reboot_fastboot">Neustart in den Bootloader…</string>
+    <string name="alert_reboot_poweroff">Ausschalten…</string>
+    <string name="alert_fastboot_title">Neustart in den Bootloader</string>
+    <string name="alert_fastboot_message">Wollen Sie Ihr Gerät wirklich in den Bootloader starten?\n\nDiese Funktion könnte in machen ROMs deaktiviert sein. Sie können dies in den Entwicklereinstellungen ändern.</string>
+
+
+    <!--Init.d emulator-->
+
+
+    <!--Build.prop Editor-->
+    <string name="alert_reboot_title">Neustart</string>
+    <string name="alert_reboot_later">Später</string>
+    <string name="alert_reboot_message">Jetzt neu starten, um die Änderungen wirksam zu machen?</string>
+    <string name="alert_reboot_message2">Um Ihre Änderungen wirksam zu machen, müssen Sie Ihr Gerät neu starten.\n\nJetzt neu starten?</string>
+
+    <!--General dialogs-->
+    <string name="alert_title_root">Root erforderlich</string>
+    <string name="alert_root">Diese App erfordert Rootzugriff</string>
+    <string name="alert_yes">Ja</string>
+    <string name="alert_sure">Ich bin dabei</string>
+    <string name="alert_no">Nein</string>
+    <string name="alert_no_thanks">Nein, danke</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_save">Speichern</string>
+    <string name="alert_discard">Verwerfen</string>
+    <string name="alert_cancel">Abbrechen</string>
+    <string name="search_title">Suchen</string>
+    <string name="status_requesting_root">Rootrechte werden angefordert</string>
+    <string name="status_requesting_write">Schreibrechte werden angefordert</string>
+    <string name="status_load_main">Startseite wird geladen</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="toast_error">Ein Fehler ist aufgetreten</string>
+
+
+    <!--Widgets-->
+    <string name="widget_toast_noroot">Kein Rootzugriff</string>
+
+
+    <!--About Page-->
+    <string name="title_about">Über Root ToolCase</string>
+    <string name="title_betatest">Betatester</string>
+    <string name="title_translation">Deutsche Übersetzung</string>
+    <string name="translators">cpu82</string>
+
+    <!--miscellaneous-->
+    <string name="adb_title">ADB über WLAN</string>
+    <string name="adb_summary">ADB über WLAN aktivieren, um sich drahtlos von einem PC auf dieses Gerät zu verbinden</string>
+    <string name="adb_connect">Tippen Sie \"adb connect %s:5555\", um sich mit diesem Gerät zu verbinden</string>
+    <string name="spellcheck_title">Rechtschreibprüfung</string>
+    <string name="spellcheck_summary">Rechtschreibprüfung (rote Unterstreichung) ein-/ausschalten</string>
+
+    <!--Account-->
+
+    <string name="loading">Wird geladen…</string>
+    <string name="chanced_device">Neues Gerät?</string>
+    <string name="title_status">Status</string>
+    <string name="toast_error_existinglist">Diese Liste existiert bereits</string>
+    <string name="action_convert_system">In Systemapp umwandeln</string>
+    <string name="action_convert_user">In Benutzerapp uwandeln</string>
+    <string name="action_extract">Extrahieren</string>
+    <string name="action_integrate_update">Update ins System integrieren</string>
+    <string name="alert_extract_message">Wollen Sie die APK-Datei dieser App extrahieren?\n\nSie finden die Datei anschließend unter:\n\n \"/sdcard/Root ToolCase/Extracted\"</string>
+    <string name="alert_extract_title">APK extrahieren</string>
+    <string name="alert_integrate_update">Wollen Sie dieses Updae ins System integrieren?</string>
+    <string name="toast_extract_success">%1$s erfolgreich extrahiert</string>
+    <string name="alert_choose_apk">Wählen Sie eine APK-Datei</string>
+    <string name="alert_install_success">Installation erfolgreich</string>
+    <string name="alert_installing">Wird installiert</string>
+    <string name="alert_overwrite_title">Hinweis</string>
+    <string name="alert_overwrite_message">Diese App existiert bereits. Wollen Sie sie überschreiben?</string>
+    <string name="alert_type_user">Benutzerapp</string>
+    <string name="alert_type_title">\"%s\" installieren als</string>
+    <string name="alert_type_system">Systemapp</string>
+    <string name="alert_updated_sysapp_message">Dies ist eine aktualisierte Systemapp. Deinstallieren Sie zuerst das Update, oder versuchen Sie die Installation als Benutzerapp.</string>
+    <string name="alert_overwrite_sysapp_message">Diese Systemapp existiert bereits.\n\nDas Überschreiben von Systemapps kann Ihr System beschädigen. In diesem Fall müssen Sie Ihre ROM neu installieren.\n\nWollen Sie die existierende App überschreiben?</string>
+    <string name="toast_version">Diese Funktion ist im Moment nur für Android 5.0+ verfügbar</string>
+    <string name="mountrw_title">System R/W einhängen</string>
+    <string name="mountrw_summary">Die Systempartition (/system) beschreibbar einhängen (statt read-only)</string>
+    <string name="language_title">Systemsprache ändern</string>
+    <string name="alert_select_language">Sprache wählen</string>
+    <string name="alert_hint_title">Tipp</string>
+    <string name="alert_hint_message">Sie können auch Schnellaktionen auf Apps anwenden.\n\nÖffnen Sie das Aktionsmenü durch langes Drücken auf einen Listeneintrag!</string>
+    <string name="action_rate">Bewerten</string>
+    <string name="alert_great">Großartig!</string>
+    <string name="alert_improve">Was können wir verbessern?</string>
+    <string name="alert_not_again">Nicht mehr fragen</string>
+    <string name="alert_rate_market">Bitte teilen Sie diese Meinung mit anderen auf Google Play.\n\nVielen Dank!</string>
+    <string name="ui_design">Das Appdesign ist verbesserungswürdig</string>
+    <string name="like">Ganz gut</string>
+    <string name="feature_missing">Mir fehlt eine bestimmte Funktion</string>
+    <string name="feature_broken">Ein Feature funktioniert nicht richtig</string>
+    <string name="comment">Kommentar</string>
+    <string name="awesome">Fantastisch!</string>
+    <string name="dislike">Nicht so toll</string>
+    <string name="alert_rate">Wie gefällt Ihnen Root ToolCase?</string>
+    <string name="alert_send">Senden</string>
+    <string name="alert_thanks">Vielen Dank!</string>
+    <string name="alert_too_bad">Das ist sehr schade!</string>
+    <string name="apps_sysupdate">Suche nach reinstallierten Systemapps. Einen Moment…</string>
+    <string name="notify_sysupdate_title">Systemupdate erkannt</string>
+    <string name="notify_sysupdate">Root ToolCase kann prüfen, ob bereits gelöschte Systemapps wieder installiert wurden.</string>
+    <string name="action_facebook">Facebook</string>
+    <string name="reboot_systemui_title">System UI</string>
+    <string name="reboot_systemui_summary">User-Interface-Prozess neu starten</string>
+    <string name="alert_reboot_systemui">Restarting System UI</string>
+    <string name="reboot_safemode_title">Abgesicherter Modus</string>
+    <string name="reboot_safemode_summary">Im abgesicherten Modus starten (nur Systemapps)</string>
+    <string name="alert_safemode_title">Abgesicherter Modus</string>
+    <string name="alert_safemode_message">Wollen Sie Ihr Gerät im abgesicherten Modus starten? Es werden nur Systemapps geladen.\n\nUm den abgesicherten Modus zu beenden, starten Sie Ihr Gerät noch einmal neu.</string>
+    <string name="alert_reboot_safemode">Restarting in Safe Mode</string>
+    <string name="action_wiki">Hilfe</string>
+    <string name="action_bloatware">Bloatware melden</string>
+
+
+    <string name="alert_details">Details</string>
+    <string name="toast_feedback">Vielen Dank für Ihr Feedback!</string>
+    <string name="number_reports">%d Meldungen</string>
+    <string name="safe_percentage">%d %% sicher zu deinstallieren</string>
+    <string name="bloatware_found">%1$d Apps gefunden</string>
+    <string name="menu_all">Alle</string>
+    <string name="menu_none">Keine</string>
+    <string name="alert_uninstalling_pkg">Uninstalling %s</string>
+    <string name="toast_no_selection">Keine App ausgewählt</string>
+    <string name="action_dark">Dark Mode</string>
+    <string name="action_details">Details</string>
+    <string name="app_title">ToolCase by cpu82</string>
+    <string name="title_expertmode">Expertenmodus</string>
+    <string name="summary_app">Nützliche Tools für Ihr Android-Gerät</string>
+    <string name="summary_expertmode">Aktivieren Sie den Expertenmodus für mehr Funktionen.</string>
+
+    <string name="expertmode_required">NUR IM EXPERTENMODUS VERFÜGBAR</string>
+    <string name="alert_expertmode_title">Expertenmodus aktivieren</string>
+    <string name="alert_writeaccess_title">Berechtigungsanfrage</string>
+    <string name="alert_writeaccess_summary">Damit Apps verwaltet und Einstellungen gespeichert werden können, benötigt ToolCase Zugriff auf den Speicher.</string>
+    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="action_manage">System App Manager</string>
+    <string name="alert_grant">Zustimmen</string>
+    <string name="alert_ignore">Beenden</string>
+
+</resources>

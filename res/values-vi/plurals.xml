@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="apps_selected">
+        <item quantity="one">Đã chọn %d</item>
+        <item quantity="other">Đã chọn %d</item>
+    </plurals>
+    <plurals name="apps_clear_cache">
+        <item quantity="one">Bạn muốn xóa bộ nhớ tạm của ứng dụng %d</item>
+        <item quantity="other">Bạn muốn xóa bộ nhớ tạm của các ứng dụng %d</item>
+    </plurals>
+    <plurals name="apps_clear_data">
+        <item quantity="one">Bạn muốn xóa dữ liệu của ứng dụng %d</item>
+        <item quantity="other">Bạn muốn xóa dữ liệu của các ứng dụng %d</item>
+    </plurals>
+    <plurals name="apps_uninstall">
+        <item quantity="one">Bạn muốn gỡ bỏ ứng dụng %d</item>
+        <item quantity="other">Bạn muốn gỡ bỏ các ứng dụng %d</item>
+    </plurals>
+    <plurals name="apps_enable">
+        <item quantity="one">Bạn muốn bật ứng dụng %d</item>
+        <item quantity="other">Bạn muốn bật các ứng dụng %d</item>
+    </plurals>
+    <plurals name="apps_disable">
+        <item quantity="one">Bạn muốn tắt ứng dụng %d</item>
+        <item quantity="other">Bạn muốn tắt các ứng dụng %d</item>
+    </plurals>
+</resources>

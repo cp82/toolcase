@@ -1,0 +1,42 @@
+﻿TITLE
+*****
+
+Root ToolCase
+
+SHORT DESCRIPTION
+*****************
+
+¡Una gran colección de herramientas para sacar más provecho de tu teléfono Android!
+
+FULL DESCRIPTION
+****************
+
+<b>REQUIERE ROOT (esta aplicación no instalará root))</b>
+
+<b>DISCLAMER:</b>
+The features of this app are very powerful, be careful to use them properly.
+THE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!
+
+<b>Gestor de aplicaiones:</b>
+★ Borrar los datos o caché de aplicaciones
+★ Habilitar / deshabilitar (freeze) de aplicaciones
+★ Desinstalar de aplicaciones
+
+<b>Flash Wizard:</b>
+★ Instalar flasheable zip
+★ Instalar boot (kernel)
+★ Instalar recovery
+
+<b>Emulador Init.d:</b>
+★ Ejecutar scripts en el arranque
+★ Incluso sin soporte nativo Init.d en tus ROMs
+
+<b>Editor Build.prop:</b>
+★ Editar propiedades de la ROM del Build
+
+<b>Reinicio avanzado:</b>
+★ Reiniciar, entrar en recovery o modo fastboot
+
+<b>Widgets:</b>
+★ Task Cleaner
+★ Reinicio avanzado

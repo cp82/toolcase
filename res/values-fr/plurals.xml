@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="apps_selected">
+        <item quantity="one">%d application sélectionnée</item>
+        <item quantity="other">%d applications sélectionnées</item>
+    </plurals>
+    <plurals name="apps_clear_cache">
+        <item quantity="one">Vous êtes sur le point de vider le cache de %d application</item>
+        <item quantity="other">Vous êtes sur le point de vider le cache les données de %d applications</item>
+    </plurals>
+    <plurals name="apps_clear_data">
+        <item quantity="one">Vous êtes sur le point de supprimer les données de %d application</item>
+        <item quantity="other">Vous êtes sur le point de supprimer les données de %d applications</item>
+    </plurals>
+    <plurals name="apps_uninstall">
+        <item quantity="one">Vous êtes sur le point de désinstaller de %d application</item>
+        <item quantity="other">Vous êtes sur le point de désinstaller %d applications</item>
+    </plurals>
+    <plurals name="apps_enable">
+        <item quantity="one">"Vous êtes sur le point d'activer de %d application"</item>
+        <item quantity="other">"Vous êtes sur le point d'activer de %d applications"</item>
+    </plurals>
+    <plurals name="apps_disable">
+        <item quantity="one">"Vous êtes sur le point de désactiver de %d application"</item>
+        <item quantity="other">"Vous êtes sur le point de désactiver de %d applications"</item>
+    </plurals>
+</resources>

@@ -1,0 +1,56 @@
+﻿TITLE
+*****
+
+ToolCase
+
+SHORT DESCRIPTION
+*****************
+
+Useful tools for your android device!
+
+FULL DESCRIPTION
+****************
+
+<b>App Manager:</b>
+★ Uninstall user apps
+★ Install apk files
+★ Sort apps by:
+&raquo; Name
+&raquo; Package name
+&raquo; App or data size
+&raquo; Install time
+★ Filter apps by:
+&raquo; System/User apps
+&raquo; Enabled/Disabled apps
+&raquo; Updated system apps
+&raquo; Custom list
+★ Open in system app manager
+★ Open in Google Play
+★ Share app link
+
+<b>Additional Features in Expert Mode (ROOT REQUIRED)</b>
+
+<b>App Manager:</b>
+★ Enable/disable (freeze) apps
+★ Clear data or cache
+★ Extract apk file
+★ Batch operations
+
+<b>Advanced Reboot:</b>
+★ Standard reboot
+★ Soft Reboot
+★ Power Off
+★ Reboot to recovery
+★ Reboot to bootloader (fastboot)
+★ Reboot to safe mode
+
+<b>ADB over WIFI:</b>
+★ Enable wireless debugging
+
+
+
+<b>Permissions</b>
+
+Following permissions are required in order to handle apk files:
+★ READ_EXTERNAL_STORAGE
+★ WRITE_EXTERNAL_STORAGE

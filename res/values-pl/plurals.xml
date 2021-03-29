@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="apps_selected">
+        <item quantity="one">Wybranych aplikacji: %d</item>
+        <item quantity="other">Wybranych aplikacji: %d</item>
+    </plurals>
+    <plurals name="apps_clear_cache">
+        <item quantity="one">Nastąpi czyszczenie cache dla %d aplikacji</item>
+        <item quantity="other">Nastąpi czyszczenie cache dla %d aplikacji</item>
+    </plurals>
+    <plurals name="apps_clear_data">
+        <item quantity="one">Nastąpi czyszczenie danych dla %d aplikacji</item>
+        <item quantity="other">Nastąpi czyszczenie danych dla %d aplikacji</item>
+    </plurals>
+    <plurals name="apps_uninstall">
+        <item quantity="one">Nastąpi usunięcie %d aplikacji</item>
+        <item quantity="other">Nastąpi usunięcie %d aplikacji</item>
+    </plurals>
+    <plurals name="apps_enable">
+        <item quantity="one">Nastąpi włączenie %d aplikacji</item>
+        <item quantity="other">Nastąpi włączenie %d aplikacji</item>
+    </plurals>
+    <plurals name="apps_disable">
+        <item quantity="one">Nastąpi wyłączenie %d aplikacji</item>
+        <item quantity="other">Nastąpi wyłączenie %d aplikacji</item>
+    </plurals>
+</resources>

@@ -1,0 +1,43 @@
+﻿TITLE
+*****
+
+Root ToolCase
+
+SHORT DESCRIPTION
+*****************
+
+Android cihazınızdan daha fazla yararlanmak için harika bir araç koleksiyonu!
+
+FULL DESCRIPTION
+****************
+
+<b>ROOT GEREKLİ (bu uygulama cihazınızı rootlamaz.)</b>
+
+<b>SORUMLULUK REDDİ:</b>
+Bu uygulamanın özellikleri çok güçlüdür, bunları düzgün bir şekilde kullanmaya özen gösterin.
+BU UYGULAMANIN GELİŞTİRİCİSİ, CİHAZINIZIN ZARARLARINDAN SORUMLU DEĞİLDİR!
+
+<b>Uygulama Yöneticisi:</b>
+★ Uygulama verilerini ve önbelleğini temizleyin
+★ Uygulamaları etkinleştirin/devre dışı bırakın (dondurun)
+★ Uygulamaları kaldırın
+
+<b>Flaşlama Sihirbazı:</b>
+★ Flaşlanabilir zip dosyaları yükleyin
+★ Birkaç zip dosyası için flaşlama sırası oluşturun
+★ Boot (kernel) image dosyaları flaşlayın
+★ Recovery (kurtarma) image dosyaları flaşlayın
+
+<b>Init.d Emülatörü:</b>
+★ Başlangıçta komut dosyaları çalıştırın
+★ Orijinal init.d desteği gerekli değil
+
+<b>Build.prop Düzenleyicisi:</b>
+★ ROM'unuzun sürüm özelliklerini düzenleyin
+
+<b>Gelişmiş Yeniden Başlatma:</b>
+★ Cihazınızı recovery (kurtarma) veya bootloader modunda başlatın
+
+<b>Widget'lar:</b>
+★ Görev Temizleyicisi
+★ Gelişmiş Yeniden Başlatma

@@ -1,0 +1,282 @@
+<resources>
+    <!--Main Activity-->
+    <string name="app_name">ToolCase</string>
+    <string name="action_pro">移除广告</string>
+    <string name="action_about">关于</string>
+    <string name="action_translate">翻译</string>
+    <string name="action_share">分享</string>
+    <string name="action_settings">设置</string>
+    <string name="title_advanced_reboot">高级重启</string>
+    <string name="title_initd">Init.d模拟器</string>
+    <string name="title_root">需要Root权限</string>
+    <string name="title_flasher">刷机向导</string>
+    <string name="title_buildprop">Build.prop编辑器</string>
+    <string name="title_misc">杂项</string>
+    <string name="title_activity_app_manager">应用管理器</string>
+    <string name="title_activity_app">应用信息</string>
+    <string name="title_activity_reboot">高级重启</string>
+    <string name="title_activity_init_d">Init.d模拟器</string>
+    <string name="title_activity_editor">编辑器</string>
+    <string name="title_activity_build_prop">Build.prop编辑器</string>
+    <string name="title_activity_misc">杂项工具</string>
+    <string name="alert_translate_title">应用翻译</string>
+    <string name="alert_translate_message">您愿意将本应用翻译成你的本地语言吗？</string>
+    <string name="alert_translate_yes">“是的，我愿意”</string>
+    <string name="alert_translate_no">“不用了，谢谢”</string>
+    <string name="summary_app_manager">管理用户和系统应用</string>
+    <string name="summary_reboot">重启，进入Recovery或Fastboot模式</string>
+    <string name="summary_root">本应用需要Root权限才能正常运行</string>
+    <string name="summary_buildprop">“编辑您的ROM的build.prop属性”</string>
+    <string name="summary_misc">杂项工具</string>
+    <string name="summary_initd">开机时运行脚本</string>
+    <string name="alert_premium">感谢您升级到专业版!</string>
+    <string name="alert_upgrade_title">升级</string>
+    <string name="message_share">"查看 \"%s\": "</string>
+    <string name="alert_upgrade_message">是否要升级到无广告版？</string>
+    <string name="ad_failed">请升级到无广告版以支持开发者</string>
+
+    <!--Flash Wizard-->
+
+    <!--App Manager-->
+    <string name="apps_total">全部应用(%1$d)</string>
+    <string name="apps_system">系统应用(%1$d)</string>
+    <string name="apps_user">用户应用(%1$d)</string>
+    <string name="apps_frozen">已停用的应用(%1$d)</string>
+    <string name="apps_updated">已更新的系统应用(%1$d)</string>
+    <string name="apps_search">发现%1$d个应用</string>
+    <string name="apps_fromlist">%1$s (%2$d)</string>
+    <string name="apps_init">正在分析已安装应用，稍等片刻…</string>
+    <string name="apps_init_size">正在计算应用大小，稍等片刻…</string>
+    <string name="apps_sizeinfo">%1$.1f MB</string>
+    <string name="apps_label_app">"应用: "</string>
+    <string name="apps_label_data">"数据: "</string>
+    <string name="action_filter_all">全部</string>
+    <string name="action_filter_system">系统应用</string>
+    <string name="action_filter_user">用户应用</string>
+    <string name="action_filter_frozen">已停用的应用</string>
+    <string name="action_filter_updated">已更新的系统应用</string>
+    <string name="action_filter_custom">自定义列表</string>
+    <string name="action_sort_by_name">按名称排序</string>
+    <string name="action_sort_by_package">按包名排序</string>
+    <string name="action_sort_by_appsize">按大小排序</string>
+    <string name="action_sort_by_datasize">按数据大小排序</string>
+    <string name="action_sort_by_totalsize">按总大小排序</string>
+    <string name="action_title">选择一种操作</string>
+    <string name="action_uninstall">卸载</string>
+    <string name="action_freeze">停用</string>
+    <string name="action_unfreeze">启用</string>
+    <string name="action_clear_data">清除数据</string>
+    <string name="action_clear_cache">清除缓存</string>
+    <string name="action_multiselect">多选</string>
+    <string name="action_customlist">添加到自定义列表</string>
+    <string name="app_updated">已更新</string>
+    <string name="app_disabled">已停用</string>
+    <string name="appinfo_name">名称:</string>
+    <string name="appinfo_pkg">包名:</string>
+    <string name="appinfo_status">状态:</string>
+    <string name="appinfo_version">版本:</string>
+    <string name="appinfo_path">路径:</string>
+    <string name="appinfo_memory">内存使用情况</string>
+    <string name="meminfo_total">总计:</string>
+    <string name="meminfo_apk">APK:</string>
+    <string name="meminfo_odex">Odex:</string>
+    <string name="meminfo_libs">Libs:</string>
+    <string name="meminfo_data">数据:</string>
+    <string name="meminfo_extdata">数据 (ext.):</string>
+    <string name="meminfo_cache">缓存:</string>
+    <string name="alert_data_title">清除应用数据</string>
+    <string name="alert_data_message">所有应用数据将会被永久删除，包括应用设置、文件等。</string>
+    <string name="alert_uninstall_title">卸载应用</string>
+    <string name="alert_uninstall_system_title">卸载系统应用</string>
+    <string name="alert_uninstall_message">您真的要卸载此应用吗？</string>
+    <string name="alert_uninstall_system_message">您真的要卸载此<b>系统应用</b>吗？\n请注意，移除错误的应用程序可能会导致严重问题。在这种情况下，您可能需要重新刷机。</string>
+    <string name="alert_uninstalling">正在卸载</string>
+    <string name="alert_enabling">正在启用</string>
+    <string name="alert_disabling">正在停用</string>
+    <string name="alert_clear_data">正在删除应用数据</string>
+    <string name="alert_clear_cache">正在清除应用缓存</string>
+    <string name="alert_title_config">刷机选项</string>
+    <string name="alert_list">选择自定义列表</string>
+    <string name="alert_newlist">新建列表</string>
+    <string name="alert_newlist_title">新建自定义列表</string>
+    <string name="alert_newlist_message">输入自定义应用列表名称</string>
+    <string name="search_hint">搜索应用</string>
+    <string name="toast_uninstall_success">%1$s卸载成功</string>
+    <string name="toast_newlist_success">\"%1$s\"创建成功</string>
+    <string name="toast_updatelist_success">\"%1$s\"更新成功</string>
+    <string name="toast_newlist_failed">创建列表时出错</string>
+
+
+    <!--Advanced reboot-->
+    <string name="reboot_title">重启</string>
+    <string name="reboot_summary">重启手机</string>
+    <string name="reboot_soft_title">软重启</string>
+    <string name="reboot_soft_summary">仅重启安卓系统</string>
+    <string name="reboot_recovery_title">重启至Recovery</string>
+    <string name="reboot_recovery_summary">重启手机进入Recovery模式</string>
+    <string name="reboot_fastboot_title">重启至Bootloader</string>
+    <string name="reboot_fastboot_summary">重启手机进入下载或Fastboot模式</string>
+    <string name="reboot_poweroff_title">关机</string>
+    <string name="reboot_poweroff_summary">关闭您的手机</string>
+    <string name="alert_reboot">正在重启</string>
+    <string name="alert_reboot_soft">正在重启Android系统</string>
+    <string name="alert_reboot_recovery">正在重启至Recovery</string>
+    <string name="alert_reboot_fastboot">正在重启至Bootloader</string>
+    <string name="alert_reboot_poweroff">正在关机</string>
+    <string name="alert_fastboot_title">重启至Bootloader</string>
+    <string name="alert_fastboot_message">您真的要重启手机进入Bootloader吗？\n\n在某些ROM上，已停用此功能。您可以在开发者设置中将其打开。</string>
+
+
+    <!--Init.d emulator-->
+
+
+    <!--Build.prop Editor-->
+    <string name="alert_reboot_title">重启手机</string>
+    <string name="alert_reboot_later">稍后再说</string>
+    <string name="alert_reboot_message">是否立即重启手机使更改生效？</string>
+    <string name="alert_reboot_message2">要使更改生效，您必须要重启手机。\n\n立即重启?</string>
+
+    <!--General dialogs-->
+    <string name="alert_title_root">需要Root权限</string>
+    <string name="alert_root">本应用需要Root权限</string>
+    <string name="alert_yes">是</string>
+    <string name="alert_sure">"好的"</string>
+    <string name="alert_no">否</string>
+    <string name="alert_no_thanks">不，谢谢</string>
+    <string name="alert_ok">确定</string>
+    <string name="alert_save">保存</string>
+    <string name="alert_discard">丢弃</string>
+    <string name="alert_cancel">取消</string>
+    <string name="search_title">搜索</string>
+    <string name="status_requesting_root">正在请求Root权限</string>
+    <string name="status_requesting_write">正在请求存储权限</string>
+    <string name="status_load_main">正在载入主界面</string>
+    <string name="btn_cancel">取消</string>
+    <string name="toast_error">发生错误</string>
+
+
+
+    <!--Widgets-->
+    <string name="widget_toast_noroot">无Root权限</string>
+
+
+    <!--About Page-->
+    <string name="title_about">关于</string>
+    <string name="title_betatest">Beta版本测试者</string>
+    <string name="title_status">状态信息</string>
+    <string name="title_translation">中文简体翻译</string>
+    <string name="translators">WhaleMajda</string>
+
+    <!--miscellaneous-->
+    <string name="adb_title">通过WiFi执行ADB命令</string>
+    <string name="adb_summary">启用通过WiFi执行ADB命令以无线连接您的个人电脑</string>
+    <string name="adb_connect">使用 \"adb connect %s:5555\"以连接到此设备</string>
+    <string name="spellcheck_title">拼写检查</string>
+    <string name="spellcheck_summary">启用或停用拼写检查(红色下划线)</string>
+
+    <!-- Account -->
+    <string name="loading">加载中…</string>
+    <string name="chanced_device">换了新手机?</string>
+    <string name="action_account">用户账号</string>
+    <string name="alert_attention">注意</string>
+    <string name="alert_cache_title">清除应用缓存</string>
+    <string name="alert_continue">继续</string>
+    <string name="alert_freeze_title">冻结应用</string>
+    <string name="alert_progress">%1$s (%2$d/%3$d)</string>
+    <string name="alert_multiuninstall_na">不允许一次性卸载多个系统应用，因为会给您的ROM带来诸多风险。\n\n请选择除系统应用外的应用。</string>
+    <string name="alert_multifreeze_na">不允许一次性冻结多个系统应用，因为会给您的ROM带来诸多风险。\n\n请选择除系统应用外的应用。</string>
+    <string name="alert_unfreeze_title">解冻应用</string>
+    <string name="action_delete_list">删除当前列表</string>
+    <string name="alert_nolist_message">未发现自定义列表</string>
+    <string name="alert_play_ad">播放广告</string>
+    <string name="alert_premium_title">付费功能</string>
+    <string name="alert_premium_message">这是个付费功能。请升级到无广告版本。另外，您也可以观看一条视频广告解锁此功能。</string>
+    <string name="alert_upgrade">升级</string>
+    <string name="toast_error_videoad">播放视频广告时出错。请检查您的网络连接和广告拦截设置后重试！</string>
+    <string name="toast_error_nolist">未发现列表</string>
+    <string name="toast_error_existinglist">此列表已存在</string>
+    <string name="action_convert_system">转换为系统应用</string>
+    <string name="action_convert_user">转换为用户应用</string>
+    <string name="action_extract">提取</string>
+    <string name="action_integrate_update">集成更新到系统中</string>
+    <string name="alert_extract_message">"您是否要提取此应用的apk文件？\n\n你将会在\n\n \"/sdcard/Root Toolcase/Extracted\目录下找到该文件""</string>
+    <string name="alert_extract_title">提取apk文件</string>
+    <string name="alert_integrate_update">您是否要集成此更新到系统中？</string>
+    <string name="toast_extract_success">%1$s提取成功</string>
+    <string name="alert_choose_apk">选择apk文件</string>
+    <string name="alert_install_success">安装成功</string>
+    <string name="alert_installing">正在安装</string>
+    <string name="alert_overwrite_title">注意</string>
+    <string name="alert_overwrite_message">此应用已存在。是否要覆盖现有应用？</string>
+    <string name="alert_type_user">用户应用</string>
+    <string name="alert_type_system">系统应用</string>
+    <string name="alert_type_title">安装 \"%s\" 为</string>
+    <string name="alert_updated_sysapp_message">这是一个已更新的系统应用。请先卸载更新或尝试安装为用户应用。</string>
+    <string name="alert_overwrite_sysapp_message">此系统应用已存在\n\n覆盖系统应用可能会损害您的系统。在这种情况下，您需要重新刷机。\n\n您是否要覆盖现有应用？</string>
+    <string name="toast_version">此功能当前仅支持Android 5.0+</string>
+    <string name="action_follow">关注</string>
+    <string name="alert_twitter_title">Root ToolCase的Twitter帐号</string>
+    <string name="alert_twitter_message">Root ToolCase现已开通Twitter帐号!\n\n关注我们以接收关于最新应用更新的消息。</string>
+    <string name="mountrw_title">挂载系统为读/写</string>
+    <string name="mountrw_summary">挂载系统分区(system)为可读/可写，而非只读</string>
+    <string name="language_title">更改系统语言</string>
+    <string name="alert_select_language">选择你的语言</string>
+    <string name="alert_hint_title">Hint</string>
+    <string name="alert_hint_message">You can also use quick actions on apps!\n\nOpen the quick actions menu by long-pressing a list entry.</string>
+    <string name="action_rate">评分</string>
+    <string name="alert_improve">What can we do better?</string>
+    <string name="alert_great">Great!</string>
+    <string name="alert_not_again">Don\'t ask again</string>
+    <string name="alert_rate_market">Please share your opinion with others on Google Play.\n\nThanks!</string>
+    <string name="alert_rate">How do you like Root ToolCase?</string>
+    <string name="ui_design">App design needs improvement</string>
+    <string name="feature_missing">A feature is missing</string>
+    <string name="feature_broken">A feature is not working</string>
+    <string name="comment">Comment</string>
+    <string name="awesome">It\'s awesome!</string>
+    <string name="dislike">Not so great</string>
+    <string name="alert_send">Send</string>
+    <string name="alert_thanks">Thanks!</string>
+    <string name="alert_too_bad">That\'s too bad!</string>
+    <string name="like">It\'s OK</string>
+    <string name="apps_sysupdate">Looking for reinstalled system apps. Just a sec…</string>
+    <string name="notify_sysupdate_title">System update detected</string>
+    <string name="notify_sysupdate">Root ToolCase can check if previously removed system apps have been reinstalled.</string>
+    <string name="action_facebook">Facebook</string>
+    <string name="reboot_systemui_title">Restart System UI</string>
+    <string name="reboot_systemui_summary">Restart user interface process</string>
+    <string name="alert_reboot_systemui">Restarting System UI</string>
+    <string name="reboot_safemode_title">Safe Mode</string>
+    <string name="reboot_safemode_summary">Restart in safe mode (without third party apps)</string>
+    <string name="alert_safemode_title">Reboot to Safe Mode</string>
+    <string name="alert_reboot_safemode">Restarting in Safe Mode</string>
+    <string name="alert_safemode_message">Do you really want to reboot your device in safe mode? Only system apps will be loaded.\n\nTo exit safe mode, just reboot your device again.</string>
+    <string name="action_wiki">帮助</string>
+    <string name="action_bloatware">Report bloatware</string>
+
+    <string name="alert_details">Show details</string>
+    <string name="toast_feedback">Thank you for your feedback!</string>
+    <string name="number_reports">%d reports</string>
+    <string name="safe_percentage">%d %% safe to remove</string>
+    <string name="bloatware_found">%1$d apps found</string>
+    <string name="menu_all">All</string>
+    <string name="menu_none">None</string>
+    <string name="alert_uninstalling_pkg">Uninstalling %s</string>
+    <string name="toast_no_selection">No app selected</string>
+    <string name="action_dark">Dark Mode</string>
+    <string name="action_details">Details</string>
+    <string name="app_title">ToolCase by cpu82</string>
+    <string name="summary_app">Useful tools for your Android device</string>
+    <string name="title_expertmode">Expert Mode</string>
+    <string name="summary_expertmode">Activate Expert Mode for more features</string>
+    <string name="summary_app_manager_expert">管理用户和系统应用</string>
+    <string name="alert_expertmode_title">Activate Expert Mode</string>
+    <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
+    <string name="alert_writeaccess_title">Permission Request</string>
+    <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
+    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="action_manage">System App Manager</string>
+    <string name="alert_grant">Accept</string>
+    <string name="alert_ignore">Exit</string>
+
+</resources>

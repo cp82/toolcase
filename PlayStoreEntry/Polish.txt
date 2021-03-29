@@ -1,0 +1,43 @@
+﻿TITLE
+*****
+
+Root ToolCase
+
+SHORT DESCRIPTION
+*****************
+
+Kolekcja świetnych narzędzi, która pozwoli Ci wyciągnąć jak najwięcej z Twojego urządzenia!
+
+FULL DESCRIPTION
+****************
+
+<b>ROOT WYMAGANY (aplikacja nie instaluje root'a)</b>
+
+<b>ZASTRZEŻENIE:</b>
+Aplikacja posiada potężne możliwości, bądź ostrożny podczas korzystania z nich.
+TWÓRCA APLIKACJI NIE JEST ODPOWIEDZIALNY ZA EWENTUALNE PROBLEMY Z URZĄDZENIEM!
+
+<b>Manager Aplikacji:</b>
+★ czyszczenie danych i cache'u aplikacji
+★ włączanie/wyłączanie (zamrażanie) aplikacji
+★ usuwanie aplikacji
+
+<b>Kreator Instalacji:</b>
+★ instalacja z plików zip
+★ tworzenie kolejki instalacji dla kilku plików zip
+★ instalacja obrazów boot (kernel)
+★ instalacja obrazów recovery
+
+<b>Emulator Init.d:</b>
+★ uruchamianie skrytpów podczas startu
+★ natywne wsparcie dla init.d nie jest wymagane
+
+<b>Edytor Build.prop:</b>
+★ edytuj build properties swojego ROM'u
+
+<b>Zaawansowany Restart:</b>
+★ uruchom recovery lub bootloader (fastboot)
+
+<b>Widżety:</b>
+★ czyszczenie zadań
+★ zaawansowane uruchamianie
