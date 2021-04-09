@@ -38,8 +38,6 @@
     <string name="summary_initd">Run scripts at boot time</string>
     <string name="summary_misc">Miscellaneous tools</string>
     <string name="alert_premium">Thank you for upgrading to premium!</string>
-    <string name="alert_twitter_title">Root ToolCase on Twitter</string>
-    <string name="alert_twitter_message">Root ToolCase is now on Twitter!\n\nFollow us to receive news about the latest app updates etc.</string>
     <string name="alert_upgrade_title">Upgrade</string>
     <string name="alert_upgrade_message">Would you like to upgrade to the ad free version?</string>
     <string name="message_share">"Check out \"%s\": "</string>
@@ -51,7 +49,7 @@
 
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_expertmode_title">Activate Expert Mode</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.\n\n</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
 
 
 
@@ -69,6 +67,7 @@
     <string name="apps_sizeinfo">%1$.1f MB</string>
     <string name="apps_label_app">"App: "</string>
     <string name="apps_label_data">"Data: "</string>
+    <string name="apps_label_date">"Install date: "</string>
     <string name="action_filter_all">All</string>
     <string name="action_filter_system">System apps</string>
     <string name="action_filter_user">User apps</string>
@@ -80,8 +79,10 @@
     <string name="action_sort_by_appsize">Sort by apk size</string>
     <string name="action_sort_by_datasize">Sort by data size</string>
     <string name="action_sort_by_totalsize">Sort by total size</string>
+    <string name="action_sort_by_date">Sort by date</string>
     <string name="action_title">Choose an action</string>
     <string name="action_manage">System App Manager</string>
+    <string name="action_playstore">Open in Play Store</string>
     <string name="action_details">Details</string>
     <string name="action_uninstall">Uninstall</string>
     <string name="action_freeze">Disable</string>
@@ -118,7 +119,7 @@
     <string name="alert_data_title">Clear app data</string>
     <string name="alert_data_message">All app data will be deleted permanently, including app settings, files etc.</string>
     <string name="alert_extract_title">Extract apk</string>
-    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Root Toolcase/Extracted\""</string>
+    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">Do you want to integrate this update to system?</string>
     <string name="alert_convert_system" translatable="false">"Do you want to convert this app to a system app?\n\nYou'll need to restart your device to make your changes effective."</string>
     <string name="alert_convert_user" translatable="false">"Do you want to convert this app to a user app?\n\nYou'll need to restart your device to make your changes effective."</string>
@@ -254,7 +255,7 @@
     <string name="like">It\'s OK</string>
     <string name="dislike">Not so great</string>
     <string name="alert_not_again">Don\'t ask again</string>
-    <string name="alert_rate">How do you like Root ToolCase?</string>
+    <string name="alert_rate">How do you like ToolCase?</string>
     <string name="alert_rate_market">Please share your opinion with others on Google Play.\n\nThanks!</string>
     <string name="alert_great">Great!</string>
     <string name="alert_send">Send</string>
@@ -267,8 +268,6 @@
     <string name="feature_missing">A feature is missing</string>
     <string name="ui_design">App design needs improvement</string>
     <string name="comment">Comment</string>
-    <string name="notify_sysupdate">Root ToolCase can check if previously removed system apps have been reinstalled.</string>
-    <string name="notify_sysupdate_title">System update detected</string>
 
     <string name="alert_details">Show details</string>
     <string name="toast_feedback">Thank you for your feedback!</string>
@@ -291,11 +290,11 @@
 
     <string name="url_xda" translatable="false">https://forum.xda-developers.com/android/apps-games/app-root-toolcase-t3601723</string>
     <string name="caption_xda" translatable="false">XDA-Developers</string>
-    <string name="url_twitter" translatable="false">https://twitter.com/roottoolcase</string>
-    <string name="url_github" translatable="false">https://github.com/cp82/roottoolcase</string>
+    <string name="caption_fb" translatable="false">Facebook</string>
+    <string name="url_github" translatable="false">https://github.com/cp82/toolcase</string>
     <string name="url_wiki" translatable="false">https://roottoolcase.cpu82.com/wiki</string>
-    <string name="url_facebook" translatable="false">https://www.facebook.com/RootToolCase</string>
-    <string name="url_facebook_app" translatable="false">fb://page/480297455690380</string>
+    <string name="url_facebook" translatable="false">https://www.facebook.com/toolcasebycpu82</string>
+    <string name="url_facebook_app" translatable="false">fb://page/114044937448733</string>
     <string name="url_playstore" translatable="false">https://play.google.com/store/apps/details?id=</string>
     <string name="url_rootinfo" translatable="false">https://roottoolcase.cpu82.com/rootinfo.html</string>
 

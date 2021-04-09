@@ -171,7 +171,7 @@
     <string name="action_customlist">Add to custom list</string>
     <string name="action_delete_list">Delete current list</string>
     <string name="action_extract">Extract</string>
-    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Root Toolcase/Extracted\""</string>
+    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="action_filter_custom">Custom list</string>
     <string name="action_follow">Follow</string>
     <string name="action_integrate_update">Integrate update to system</string>
@@ -191,11 +191,9 @@
     <string name="alert_play_ad">Assista a publicidade</string>
     <string name="alert_premium_title">Característica Premium</string>
     <string name="alert_select_language">Selecione o idioma</string>
-    <string name="alert_twitter_title">Root ToolCase on Twitter</string>
-    <string name="alert_twitter_message">Root ToolCase is now on Twitter!  Follow us to receive news about the latest app updates etc.</string>
     <string name="alert_type_system">Aplicativo do sistema</string>
     <string name="alert_type_user">Aplicativo de usuário</string>
-    <string name="alert_type_title">Install \"%s\" as</string>
+    <string name="alert_type_title">Install \"%s\"</string>
     <string name="toast_newlist_failed">Error creating list</string>
     <string name="toast_updatelist_success">\"%1$s\" successfully updated</string>
     <string name="toast_version">This feature is currently only available for Android 5.0+</string>
@@ -228,7 +226,7 @@
     <string name="alert_great">Great!</string>
     <string name="alert_not_again">Don\'t ask again</string>
     <string name="alert_rate_market">Please share your opinion with others on Google Play.\n\nThanks!</string>
-    <string name="alert_rate">How do you like Root ToolCase?</string>
+    <string name="alert_rate">How do you like ToolCase?</string>
     <string name="ui_design">App design needs improvement</string>
     <string name="feature_missing">A feature is missing</string>
     <string name="feature_broken">A feature is not working</string>
@@ -240,8 +238,6 @@
     <string name="alert_too_bad">That\'s too bad!</string>
     <string name="like">It\'s OK</string>
     <string name="apps_sysupdate">Looking for reinstalled system apps. Just a sec…</string>
-    <string name="notify_sysupdate_title">System update detected</string>
-    <string name="notify_sysupdate">Root ToolCase can check if previously removed system apps have been reinstalled.</string>
     <string name="action_facebook">Facebook</string>
     <string name="reboot_systemui_title">Restart System UI</string>
     <string name="reboot_systemui_summary">Restart user interface process</string>
@@ -274,9 +270,12 @@
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_writeaccess_title">Permission Request</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Accept</string>
     <string name="alert_ignore">Exit</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_playstore">Open in Play Store</string>
+    <string name="apps_label_date">"Install date: "</string>
 
 </resources>

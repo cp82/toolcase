@@ -86,7 +86,7 @@
     <string name="alert_data_title">Clear app data</string>
     <string name="alert_data_message">All app data will be deleted permanently, including app settings, files etc.</string>
     <string name="alert_extract_title">Extract apk</string>
-    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Root Toolcase/Extracted\""</string>
+    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">Do you want to integrate this update to system?</string>
     <string name="alert_overwrite_title">Notice</string>
     <string name="alert_overwrite_message">This app already exists. Do you want to overwrite the existing app?</string>
@@ -117,7 +117,7 @@
     <string name="alert_multiuninstall_na">Uninstalling multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
     <string name="alert_multifreeze_na">Freezing multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
     <string name="alert_choose_apk">Select an apk</string>
-    <string name="alert_type_title">Install \"%s\" as</string>
+    <string name="alert_type_title">Install \"%s\"</string>
     <string name="alert_type_system">System app</string>
     <string name="alert_type_user">User app</string>
     <string name="search_hint">Search for apk</string>
@@ -200,7 +200,7 @@
     <string name="like">It\'s OK</string>
     <string name="dislike">Not so great</string>
     <string name="alert_not_again">Don\'t ask again</string>
-    <string name="alert_rate">How do you like Root ToolCase?</string>
+    <string name="alert_rate">How do you like ToolCase?</string>
     <string name="alert_rate_market">Please share your opinion with others on Google Play.\n\nThanks!</string>
     <string name="alert_great">Great!</string>
     <string name="alert_send">Send</string>
@@ -213,8 +213,6 @@
     <string name="feature_missing">A feature is missing</string>
     <string name="ui_design">App design needs improvement</string>
     <string name="comment">Comment</string>
-    <string name="notify_sysupdate">Root ToolCase can check if previously removed system apps have been reinstalled.</string>
-    <string name="notify_sysupdate_title">System update detected</string>
     <string name="action_facebook">Facebook</string>
     <string name="apps_sizeinfo">%1$.1f MB</string>
     <string name="alert_translate_no">Tidak, terima kasih</string>
@@ -222,8 +220,6 @@
     <string name="alert_select_language">Pilih Bahasa</string>
     <string name="alert_translate_message">Would you like to contribute to your local translation of this app?</string>
     <string name="alert_premium">Terima kasih kerana naik taraf!</string>
-    <string name="alert_twitter_title">Root ToolCase on Twitter</string>
-    <string name="alert_twitter_message">Root ToolCase is now on Twitter!  Follow us to receive news about the latest app updates etc.</string>
     <string name="alert_upgrade_message">Adakah anda ingin menaik taraf ke versi tanpa iklan?</string>
     <string name="apps_init_size">Calculating app size. Just a sec…</string>
     <string name="apps_sysupdate">Looking for reinstalled system apps. Just a sec…</string>
@@ -261,9 +257,12 @@
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_writeaccess_title">Permission Request</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Accept</string>
     <string name="alert_ignore">Exit</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_playstore">Open in Play Store</string>
+    <string name="apps_label_date">"Install date: "</string>
 
 </resources>

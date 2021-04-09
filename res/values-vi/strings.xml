@@ -32,8 +32,6 @@
     <string name="summary_initd">Chạy tập lệnh khi khởi động</string>
     <string name="summary_misc">Công cụ linh tinh</string>
     <string name="alert_premium">Cảm ơn bạn đã nâng cấp lên bản Premium!</string>
-    <string name="alert_twitter_title">Bộ Công cụ Root trên Twitter</string>
-    <string name="alert_twitter_message">Bộ Công cụ Root hiện có trên Twitter!\n\nTheo dõi chúng tôi để nhận tin tức cập nhật về ứng dụng mới nhất.</string>
     <string name="alert_upgrade_title">Nâng cấp</string>
     <string name="alert_upgrade_message">Bạn có muốn nâng cấp lên phiên bản không có quảng cáo không?</string>
     <string name="message_share">"Kiểm tra \"%s\": "</string>
@@ -100,7 +98,7 @@
     <string name="alert_data_title">Xóa dữ liệu ứng dụng</string>
     <string name="alert_data_message">Tất cả dữ liệu ứng dụng sẽ bị xóa vĩnh viễn, bao gồm cài đặt ứng dụng, tệp, v.v ...</string>
     <string name="alert_extract_title">Trích xuất apk</string>
-    <string name="alert_extract_message">"Bạn có muốn trích xuất tệp tin APK của ứng dụng này?\n\nBạn sẽ tìm thấy tệp tin dưới:\n\n \"/sdcard/Root Toolcase/Extracted\""</string>
+    <string name="alert_extract_message">"Bạn có muốn trích xuất tệp tin APK của ứng dụng này?\n\nBạn sẽ tìm thấy tệp tin dưới:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">Bạn có muốn tích hợp cập nhật này với hệ thống?</string>
     <!--<string name="alert_convert_system" translatable="false">"Bạn có muốn chuyển đổi ứng dụng này sang ứng dụng hệ thống?\n\nBạn sẽ cần khởi động lại thiết bị của mình để thực hiện các thay đổi của mình hiệu quả."</string>-->
     <!--<string name="alert_convert_user" translatable="false">"Bạn có muốn chuyển đổi ứng dụng này sang ứng dụng người dùng không?\n\nBạn sẽ cần khởi động lại thiết bị của mình để thực hiện các thay đổi của mình hiệu quả."</string>-->
@@ -233,7 +231,7 @@
     <string name="alert_great">Tuyệt!</string>
     <string name="alert_not_again">Đừng hỏi lại</string>
     <string name="alert_rate_market">Hãy đánh giá trênGoogle Play.\n\nThanks!</string>
-    <string name="alert_rate">Bạn có thích Root ToolCase?</string>
+    <string name="alert_rate">Bạn có thích ToolCase?</string>
     <string name="ui_design">Cải thiện thiết kế ứng dụng</string>
     <string name="feature_missing">Thiếu tính năng</string>
     <string name="feature_broken">Tính năng không dùng được</string>
@@ -245,8 +243,6 @@
     <string name="alert_too_bad">Thật tệ!</string>
     <string name="like">Nó ổn</string>
     <string name="apps_sysupdate">Đang tìm ứng dụng hệ thống đã cài lại. Chờ vài giây…</string>
-    <string name="notify_sysupdate_title">Hệ thống phát hiện cập nhật</string>
-    <string name="notify_sysupdate">Root ToolCase có thể kiểm tra ứng dụng hệ thống đã gỡ được cài lại.</string>
     <string name="action_facebook">Facebook</string>
     <string name="reboot_systemui_title">Khởi động lại giao diện người dùng hệ thống</string>
     <string name="reboot_systemui_summary">Đang khởi động lại quá trình giao diện người dùng</string>
@@ -280,9 +276,12 @@
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_writeaccess_title">Permission Request</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Accept</string>
     <string name="alert_ignore">Exit</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_playstore">Open in Play Store</string>
+    <string name="apps_label_date">"Install date: "</string>
 
 </resources>

@@ -1,45 +1,57 @@
 ﻿TITLE
 *****
 
-Root ToolCase
+ToolCase
 
 SHORT DESCRIPTION
 *****************
 
-Eine tolle Sammlung an Werkzeugen, um mehr aus Ihrem Gerät herauszuholen!
+Nützliche Tools für Ihr Android-Gerät!
 
 FULL DESCRIPTION
 ****************
 
-<b>ROOT ERFORDERLICH (diese App kann Ihr Gerät nicht rooten)</b>
+<b>App Manager:</b>
+★ Benutzerapps deinstallieren
+★ APK-Dateien installieren
+★ Apps sortieren nach:
+&raquo; Namen
+&raquo; Paketnamen
+&raquo; App- oder Datengröße
+&raquo; Installationsdatum
+★ Apps filtern nach:
+&raquo; System-/Benutzerapps
+&raquo; Enabled/Disabled apps
+&raquo; Aktualisierte Systemapps
+&raquo; Benutzerdefinierte Liste
+★ Im System App-Manager öffnen
+★ Im Play Store öffnen
+★ Play Store Link teilen
 
-<b>Haftungsausschluss:</b>
-Einige Features dieser App sind sehr mächtig.
-DER ENTWICKLER ÜBERNIMMT KEINE VERANTWORTUNG FÜR SCHÄDEN AN DEINEM GERÄT
-
+<b>Zusätzliche Features im Expertenmodus (ROOT ERFORDERLICH)</b>
 
 <b>App Manager:</b>
 ★ Appdaten und Appcache löschen
 ★ Apps aktivieren/deaktivieren (einfrieren)
-★ Apps deinstallieren
-
-<b>Flash Wizard:</b>
-★ Flashbare ZIP-Archiveinstallieren
-★ Flash Queue (mehrere ZIPs auf einmal installieren) 
-★ Boot-Images (Kernel) flashen
-★ Recovery-Images flashen
-
-<b>Init.d Emulator:</b>
-★ Shell Skripte beim Systemstart ausführen
-★ Kein nativer init.d Support in der ROM erforderlich
-
-<b>Build.prop Editor:</b>
-★ Buildeigenschaften der ROM bearbeiten
+★ APK Dateien extrahieren
+★ Batch-Operationen
 
 <b>Erweiterter Neustart:</b>
-★ Standard oder Soft Reboot
-★ Boot ins Recovery oder in den Bootloader (fastboot)
+★ Neustart
+★ Schneller Neustart (soft reboot)
+★ Ausschalten
+★ Neustart ins Recovery
+★ Neustart in den Bootloader (fastboot)
+★ Neustart in den abgesicherten Modus (nur Systemapps)
 
-<b>Widgets:</b>
-★ Task Cleaner
-★ Erweiterter Neustart
+<b>ADB über WLAN:</b>
+★ Drahtloses Debugging
+
+
+
+<b>Berechtigungen</b>
+
+Die folgenden Berechtigungen sind erforderlich, um APK-Dateien zu verarbeiten:
+★ READ_EXTERNAL_STORAGE
+★ WRITE_EXTERNAL_STORAGE
+

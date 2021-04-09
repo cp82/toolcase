@@ -32,8 +32,6 @@
     <string name="summary_initd">Exécuter des scripts au démarrage</string>
     <string name="summary_misc">Outils divers</string>
     <string name="alert_premium">"Merci d'avoir mis à niveau vers la version premium!"</string>
-    <string name="alert_twitter_title">Root ToolCase on Twitter</string>
-    <string name="alert_twitter_message">Root ToolCase is now on Twitter!\n\nFollow us to receive news about the latest app updates etc.</string>
     <string name="alert_upgrade_title">Mise à niveau</string>
     <string name="alert_upgrade_message">Voulez-vous acheter la mise à niveau vers la version sans réclames?</string>
     <string name="message_share">"Check out \"%s\": "</string>
@@ -100,7 +98,7 @@
     <string name="alert_data_title">Effacer les données</string>
     <string name="alert_data_message">"Toutes les données de l'application seront supprimées en permanence, y compris les paramètres de l'application, les fichiers, etc."</string>
     <string name="alert_extract_title">"Extrait l'apk"</string>
-    <string name="alert_extract_message">"Voulez-vous extraire le fichier apk de cette application?\n\nVous trouverez le fichier sous:\n\n \"/sdcard/Root Toolcase/Extracted\""</string>
+    <string name="alert_extract_message">"Voulez-vous extraire le fichier apk de cette application?\n\nVous trouverez le fichier sous:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">Do you want to integrate this update to system?</string>
     <string name="alert_overwrite_title">Remarquer</string>
     <string name="alert_overwrite_message">"Cette application existe déjà. Voulez-vous remplacer l'application existante?"</string>
@@ -131,7 +129,7 @@
     <string name="alert_multiuninstall_na">Uninstalling multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
     <string name="alert_multifreeze_na">Freezing multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
     <string name="alert_choose_apk">Select an apk</string>
-    <string name="alert_type_title">Install \"%s\" as</string>
+    <string name="alert_type_title">Install \"%s\"</string>
     <string name="alert_type_system">System app</string>
     <string name="alert_type_user">User app</string>
     <string name="search_hint">"Rechercher l'apk"</string>
@@ -232,7 +230,7 @@
     <string name="alert_great">Great!</string>
     <string name="alert_not_again">Don\'t ask again</string>
     <string name="alert_rate_market">Please share your opinion with others on Google Play.\n\nThanks!</string>
-    <string name="alert_rate">How do you like Root ToolCase?</string>
+    <string name="alert_rate">How do you like ToolCase?</string>
     <string name="ui_design">App design needs improvement</string>
     <string name="feature_missing">A feature is missing</string>
     <string name="feature_broken">A feature is not working</string>
@@ -244,8 +242,6 @@
     <string name="alert_too_bad">That\'s too bad!</string>
     <string name="like">It\'s OK</string>
     <string name="apps_sysupdate">Looking for reinstalled system apps. Just a sec…</string>
-    <string name="notify_sysupdate_title">System update detected</string>
-    <string name="notify_sysupdate">Root ToolCase can check if previously removed system apps have been reinstalled.</string>
     <string name="action_facebook">Facebook</string>
     <string name="reboot_systemui_title">Restart System UI</string>
     <string name="reboot_systemui_summary">Restart user interface process</string>
@@ -275,12 +271,15 @@
     <string name="summary_expertmode">Activate Expert Mode for more features</string>
     <string name="summary_app_manager_expert">Gérer les applications utilisateur et système</string>
     <string name="alert_expertmode_title">Activate Expert Mode</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_writeaccess_title">Permission Request</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Accept</string>
     <string name="alert_ignore">Exit</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_playstore">Open in Play Store</string>
+    <string name="apps_label_date">"Install date: "</string>
 
 </resources>

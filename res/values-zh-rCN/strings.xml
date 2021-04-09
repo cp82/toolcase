@@ -199,7 +199,7 @@
     <string name="action_convert_user">转换为用户应用</string>
     <string name="action_extract">提取</string>
     <string name="action_integrate_update">集成更新到系统中</string>
-    <string name="alert_extract_message">"您是否要提取此应用的apk文件？\n\n你将会在\n\n \"/sdcard/Root Toolcase/Extracted\目录下找到该文件""</string>
+    <string name="alert_extract_message">"您是否要提取此应用的apk文件？\n\n你将会在\n\n \"/sdcard/Toolcase/Extracted\目录下找到该文件""</string>
     <string name="alert_extract_title">提取apk文件</string>
     <string name="alert_integrate_update">您是否要集成此更新到系统中？</string>
     <string name="toast_extract_success">%1$s提取成功</string>
@@ -215,8 +215,6 @@
     <string name="alert_overwrite_sysapp_message">此系统应用已存在\n\n覆盖系统应用可能会损害您的系统。在这种情况下，您需要重新刷机。\n\n您是否要覆盖现有应用？</string>
     <string name="toast_version">此功能当前仅支持Android 5.0+</string>
     <string name="action_follow">关注</string>
-    <string name="alert_twitter_title">Root ToolCase的Twitter帐号</string>
-    <string name="alert_twitter_message">Root ToolCase现已开通Twitter帐号!\n\n关注我们以接收关于最新应用更新的消息。</string>
     <string name="mountrw_title">挂载系统为读/写</string>
     <string name="mountrw_summary">挂载系统分区(system)为可读/可写，而非只读</string>
     <string name="language_title">更改系统语言</string>
@@ -228,7 +226,7 @@
     <string name="alert_great">Great!</string>
     <string name="alert_not_again">Don\'t ask again</string>
     <string name="alert_rate_market">Please share your opinion with others on Google Play.\n\nThanks!</string>
-    <string name="alert_rate">How do you like Root ToolCase?</string>
+    <string name="alert_rate">How do you like ToolCase?</string>
     <string name="ui_design">App design needs improvement</string>
     <string name="feature_missing">A feature is missing</string>
     <string name="feature_broken">A feature is not working</string>
@@ -240,8 +238,6 @@
     <string name="alert_too_bad">That\'s too bad!</string>
     <string name="like">It\'s OK</string>
     <string name="apps_sysupdate">Looking for reinstalled system apps. Just a sec…</string>
-    <string name="notify_sysupdate_title">System update detected</string>
-    <string name="notify_sysupdate">Root ToolCase can check if previously removed system apps have been reinstalled.</string>
     <string name="action_facebook">Facebook</string>
     <string name="reboot_systemui_title">Restart System UI</string>
     <string name="reboot_systemui_summary">Restart user interface process</string>
@@ -274,9 +270,12 @@
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_writeaccess_title">Permission Request</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Accept</string>
     <string name="alert_ignore">Exit</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_playstore">Open in Play Store</string>
+    <string name="apps_label_date">"Install date: "</string>
 
 </resources>

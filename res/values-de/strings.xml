@@ -2,7 +2,7 @@
     <!--Main Activity-->
     <string name="app_name">ToolCase</string>
     <string name="action_pro">Werbung entfernen</string>
-    <string name="action_about">Über Root ToolCase</string>
+    <string name="action_about">Über ToolCase</string>
     <string name="action_translate">Übersetzen</string>
     <string name="action_account">Benutzerkonto</string>
     <string name="action_follow">Folgen</string>
@@ -33,8 +33,6 @@
     <string name="summary_misc">Diverse Tools</string>
     <string name="summary_initd">Skripte beim Systemstart ausführen</string>
     <string name="alert_premium">Danke, dass Sie sich für die Premiumversion entschieden haben!</string>
-    <string name="alert_twitter_title">Root ToolCase auf Twitter</string>
-    <string name="alert_twitter_message">Root ToolCase ist jetzt auf Twitter!\n\nFolgen Sie uns, um über App-Updates etc. auf dem Laufenden zu bleiben!</string>
     <string name="alert_upgrade_title">Upgrade</string>
     <string name="message_share">"Sieh dir \"%s\" an: "</string>
     <string name="alert_upgrade_message">Wollen Sie ein Upgrade auf die werbefreie Version durchführen?</string>
@@ -180,7 +178,7 @@
 
 
     <!--About Page-->
-    <string name="title_about">Über Root ToolCase</string>
+    <string name="title_about">Über ToolCase</string>
     <string name="title_betatest">Betatester</string>
     <string name="title_translation">Deutsche Übersetzung</string>
     <string name="translators">cpu82</string>
@@ -202,7 +200,7 @@
     <string name="action_convert_user">In Benutzerapp uwandeln</string>
     <string name="action_extract">Extrahieren</string>
     <string name="action_integrate_update">Update ins System integrieren</string>
-    <string name="alert_extract_message">Wollen Sie die APK-Datei dieser App extrahieren?\n\nSie finden die Datei anschließend unter:\n\n \"/sdcard/Root ToolCase/Extracted\"</string>
+    <string name="alert_extract_message">Wollen Sie die APK-Datei dieser App extrahieren?\n\nSie finden die Datei anschließend unter:\n\n \"/sdcard/Toolcase/Extracted\"</string>
     <string name="alert_extract_title">APK extrahieren</string>
     <string name="alert_integrate_update">Wollen Sie dieses Updae ins System integrieren?</string>
     <string name="toast_extract_success">%1$s erfolgreich extrahiert</string>
@@ -212,7 +210,7 @@
     <string name="alert_overwrite_title">Hinweis</string>
     <string name="alert_overwrite_message">Diese App existiert bereits. Wollen Sie sie überschreiben?</string>
     <string name="alert_type_user">Benutzerapp</string>
-    <string name="alert_type_title">\"%s\" installieren als</string>
+    <string name="alert_type_title">\"%s\" installieren</string>
     <string name="alert_type_system">Systemapp</string>
     <string name="alert_updated_sysapp_message">Dies ist eine aktualisierte Systemapp. Deinstallieren Sie zuerst das Update, oder versuchen Sie die Installation als Benutzerapp.</string>
     <string name="alert_overwrite_sysapp_message">Diese Systemapp existiert bereits.\n\nDas Überschreiben von Systemapps kann Ihr System beschädigen. In diesem Fall müssen Sie Ihre ROM neu installieren.\n\nWollen Sie die existierende App überschreiben?</string>
@@ -235,13 +233,11 @@
     <string name="comment">Kommentar</string>
     <string name="awesome">Fantastisch!</string>
     <string name="dislike">Nicht so toll</string>
-    <string name="alert_rate">Wie gefällt Ihnen Root ToolCase?</string>
+    <string name="alert_rate">Wie gefällt Ihnen ToolCase?</string>
     <string name="alert_send">Senden</string>
     <string name="alert_thanks">Vielen Dank!</string>
     <string name="alert_too_bad">Das ist sehr schade!</string>
     <string name="apps_sysupdate">Suche nach reinstallierten Systemapps. Einen Moment…</string>
-    <string name="notify_sysupdate_title">Systemupdate erkannt</string>
-    <string name="notify_sysupdate">Root ToolCase kann prüfen, ob bereits gelöschte Systemapps wieder installiert wurden.</string>
     <string name="action_facebook">Facebook</string>
     <string name="reboot_systemui_title">System UI</string>
     <string name="reboot_systemui_summary">User-Interface-Prozess neu starten</string>
@@ -275,9 +271,12 @@
     <string name="alert_expertmode_title">Expertenmodus aktivieren</string>
     <string name="alert_writeaccess_title">Berechtigungsanfrage</string>
     <string name="alert_writeaccess_summary">Damit Apps verwaltet und Einstellungen gespeichert werden können, benötigt ToolCase Zugriff auf den Speicher.</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Der Expertenmodus erfordert Root-Zugriff.\n\nEinige Features dieser App sind sehr mächtig, bitte geben Sie Acht.\n\nDER ENTWICKLER ÜBERNIMMT KEINE VERANTWORTUNG FÜR SCHÄDEN AN IHREM GERÄT!"</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Zustimmen</string>
     <string name="alert_ignore">Beenden</string>
+    <string name="action_sort_by_date">Nach Datum sortieren</string>
+    <string name="action_playstore">Im Play Store ansehen</string>
+    <string name="apps_label_date">"Installationsdatum: "</string>
 
 </resources>

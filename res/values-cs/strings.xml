@@ -33,8 +33,6 @@
     <string name="summary_initd">Spouštění skriptů při startu</string>
     <string name="summary_misc">Ostatní nástroje</string>
     <string name="alert_premium">Děkujeme za přechod na verzi premium!</string>
-    <string name="alert_twitter_title">Root ToolCase na Twitteru</string>
-    <string name="alert_twitter_message">Root ToolCase je nyní na Twitteru!\n\nSledujte nás k odběru novinek o nejnovějších aktualizacích aplikace apod.</string>
     <string name="alert_upgrade_title">Upgrade</string>
     <string name="alert_upgrade_message">Chcete přejít na verzi bez reklam?</string>
     <string name="message_share">"Kontrola \"%s\": "</string>
@@ -102,7 +100,7 @@
     <string name="alert_data_title">Vymazat data aplikace</string>
     <string name="alert_data_message">Budou navždy vymazána všechna data aplikace zahrnující nastavení aplikace, soubory atd.</string>
     <string name="alert_extract_title">Rozbalit aplikaci</string>
-    <string name="alert_extract_message">"Chcete rozbalit soubor aplikace?\n\nSoubor uložen:\n\n \"/sdcard/Root Toolcase/Extracted\""</string>
+    <string name="alert_extract_message">"Chcete rozbalit soubor aplikace?\n\nSoubor uložen:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">Chcete integrovat tuto aktualizaci do systému?</string>
     <string name="alert_overwrite_title">Poznámka</string>
     <string name="alert_overwrite_message">Tato aplikace již existuje. Chcete přepsat existující aplikaci?</string>
@@ -133,7 +131,7 @@
     <string name="alert_multiuninstall_na">Odinstalace více systémových aplikací není povolena z důvodu rizika narušení Vaší ROM.\n\nProveďte, prosím, jiný výběr neobsahující žádnou systémovou aplikaci.</string>
     <string name="alert_multifreeze_na">Deaktivace více systémových aplikací není povolena z důvodu rizika narušení Vaší ROM.\n\nProveďte, prosím, jiný výběr neobsahující žádnou systémovou aplikaci.</string>
     <string name="alert_choose_apk">Vyberte aplikaci</string>
-    <string name="alert_type_title">Instalace \"%s\" as</string>
+    <string name="alert_type_title">Instalace \"%s\"</string>
     <string name="alert_type_system">Systémová aplikace</string>
     <string name="alert_type_user">Uživatelská aplikace</string>
     <string name="search_hint">Vyhledávání aplikace</string>
@@ -231,7 +229,7 @@
     <string name="like">Je to OK</string>
     <string name="dislike">Není to až tak dobré</string>
     <string name="alert_not_again">Už se neptat</string>
-    <string name="alert_rate">Jak se Vám líbí aplikace Root ToolCase?</string>
+    <string name="alert_rate">Jak se Vám líbí aplikace ToolCase?</string>
     <string name="alert_rate_market">Sdílejte, prosím, Váš názor s ostatními na Obchodu Google.\n\nDíky!</string>
     <string name="alert_great">Výborně!</string>
     <string name="alert_send">Poslat</string>
@@ -244,8 +242,6 @@
     <string name="feature_missing">Chybí mi funkce</string>
     <string name="ui_design">Je potřeba zlepšit vzhled aplikace</string>
     <string name="comment">Komentář</string>
-    <string name="notify_sysupdate">Root ToolCase může zjistit, zda předchozí odebrané systémové aplikace můžou být reinstalovány.</string>
-    <string name="notify_sysupdate_title">Zjištěna systémová aktualizace</string>
     <string name="action_facebook">Facebook</string>
     <string name="reboot_systemui_title">Restart System UI</string>
     <string name="reboot_systemui_summary">Restart user interface process</string>
@@ -278,9 +274,12 @@
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_writeaccess_title">Permission Request</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Accept</string>
     <string name="alert_ignore">Exit</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_playstore">Open in Play Store</string>
+    <string name="apps_label_date">"Install date: "</string>
 
 </resources>

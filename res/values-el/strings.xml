@@ -53,7 +53,7 @@
   <string name="alert_discard">Απόρριψη</string>
     <string name="alert_enabling">Ενεργοποίηση</string>
   <string name="alert_extract_message">"Θέλετε να εξαγάγετε το αρχείο apk αυτής της εφαρμογής;
- \nΘα βρείτε το αρχείο σε:\n\n \"/sdcard/Root Toolcase/Extracted\""</string>
+ \nΘα βρείτε το αρχείο σε:\n\n \"/sdcard/Toolcase/Extracted\""</string>
   <string name="alert_extract_title">Εξαγωγή apk</string>
   <string name="alert_fastboot_message">"Θέλετε πραγματικά να επανεκκινήσετε τη συσκευή σας στον bootloader;
  \nΑυτή η λειτουργία ενδέχεται να είναι ανενεργή σε ορισμένες  ROM. Μπορείτε πιθανώς να το ενεργοποιήσετε στις ρυθμίσεις προγραμματιστή."</string>
@@ -89,7 +89,7 @@
  \nΕναλλακτικά, μπορείτε να παρακολουθήσετε μια διαφήμιση βίντεο για να ξεκλειδώσετε αυτήν τη λειτουργία για αυτήν την περίοδο σύνδεσης."</string>
   <string name="alert_premium_title">Premium χαρακτηριστικό</string>
   <string name="alert_progress">%1$s (%2$d/%3$d)</string>
-    <string name="alert_rate">Σας αρέσει το Root ToolCase;</string>
+    <string name="alert_rate">Σας αρέσει το ToolCase;</string>
   <string name="alert_rate_market">"Μοιραστείτε τη γνώμη σας με άλλους στο Google Play.
  \nΕυχαριστώ!"</string>
   <string name="alert_reboot">Επανεκκίνηση</string>
@@ -118,12 +118,8 @@
   <string name="alert_translate_no">Οχι ευχαριστώ</string>
   <string name="alert_translate_title">Μετάφραση εφαρμογής</string>
   <string name="alert_translate_yes">"Σίγουρα, θέλω"</string>
-  <string name="alert_twitter_message">"Το Root ToolCase είναι τώρα στο Twitter!
-  
-Ακολουθήστε μας για να λαμβάνετε νέα σχετικά με τις τελευταίες ενημερώσεις εφαρμογών κλπ."</string>
-  <string name="alert_twitter_title">Root ToolCase στο Twitter</string>
-  <string name="alert_type_system">Εφαρμογή συστήματος</string>
-  <string name="alert_type_title">Εγκατάσταση \"%s\" ώς</string>
+    <string name="alert_type_system">Εφαρμογή συστήματος</string>
+  <string name="alert_type_title">Εγκατάσταση \"%s\"</string>
   <string name="alert_type_user">Εφαρμογή χρήστη</string>
   <string name="alert_unfreeze_title">Ενεργοποίηση εφαρμογών</string>
   <string name="alert_uninstall_message">Θέλετε πραγματικά να απεγκαταστήσετε  αυτήν την εφαρμογή;</string>
@@ -182,9 +178,7 @@
   <string name="message_share">"Ελέγξτε εκτός \"%s\": "</string>
   <string name="mountrw_summary">Προσάρτηση του διαμερίσματος του Συστήματος (/) /System (Σύστημα) αναγνώσιμο/εγγράψιμο αντί μόνο για ανάγνωση</string>
   <string name="mountrw_title">Τοποθετεί Το Σύστημα R/W</string>
-    <string name="notify_sysupdate">Το Root ToolCase μπορεί να ελέγξει αν έχει γίνει επανεγκατάσταση εφαρμογών που έχουν καταργηθεί προηγουμένως.</string>
-  <string name="notify_sysupdate_title">Έχει εντοπιστεί ενημέρωση συστήματος</string>
-  <string name="number_reports">%d reports</string>
+    <string name="number_reports">%d reports</string>
     <string name="reboot_fastboot_summary">Επανεκκινήστε τη συσκευή σας σε λειτουργία Download ή Fastboot</string>
   <string name="reboot_fastboot_title">Επανεκκινήστε σε Bootloader</string>
   <string name="reboot_poweroff_summary">Απενεργοποιήστε τη συσκευή σας</string>
@@ -257,10 +251,13 @@
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_writeaccess_title">Permission Request</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Accept</string>
     <string name="alert_ignore">Exit</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_playstore">Open in Play Store</string>
+    <string name="apps_label_date">"Install date: "</string>
 
 
 </resources>

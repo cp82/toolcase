@@ -198,7 +198,7 @@
     <string name="action_convert_user">Convert to user app</string>
     <string name="action_extract">Extract</string>
     <string name="action_integrate_update">Integrate update to system</string>
-    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Root Toolcase/Extracted\""</string>
+    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_extract_title">Extract apk</string>
     <string name="alert_integrate_update">Do you want to integrate this update to system?</string>
     <string name="toast_extract_success">%1$s successfully extracted</string>
@@ -209,13 +209,11 @@
     <string name="alert_overwrite_message">This app already exists. Do you want to overwrite the existing app?</string>
     <string name="alert_type_user">User app</string>
     <string name="alert_type_system">System app</string>
-    <string name="alert_type_title">Install \"%s\" as</string>
+    <string name="alert_type_title">"Install \"%s\" "</string>
     <string name="alert_updated_sysapp_message">This is an updated system app. Please uninstall the update first or try installing as user app.</string>
     <string name="alert_overwrite_sysapp_message">This system app already exists.\n\nOverwriting system apps may corrupt your system. In that case, you may need to reflash your ROM.\n\nDo you want to overwrite the existing app?</string>
     <string name="toast_version">This feature is currently only available for Android 5.0+</string>
     <string name="action_follow">Follow</string>
-    <string name="alert_twitter_title">Root ToolCase on Twitter</string>
-    <string name="alert_twitter_message">Root ToolCase is now on Twitter!\n\nFollow us to receive news about the latest app updates etc.</string>
     <string name="mountrw_title">Mount System R/W</string>
     <string name="mountrw_summary">Monte la partición del sistema (/system) legible/escribible en lugar de solo lectura</string>
     <string name="language_title">Cambiar el idioma del sistema</string>
@@ -227,7 +225,7 @@
     <string name="alert_great">¡Estupendo!</string>
     <string name="alert_not_again">No preguntes de nuevo</string>
     <string name="alert_rate_market">Please share your opinion with others on Google Play.\n\nThanks!</string>
-    <string name="alert_rate">¿Cómo te gusta Root ToolCase?</string>
+    <string name="alert_rate">¿Cómo te gusta ToolCase?</string>
     <string name="ui_design">El diseño de la aplicación necesita mejoras</string>
     <string name="feature_missing">Falta una característica</string>
     <string name="feature_broken">Una característica no funciona</string>
@@ -239,8 +237,6 @@
     <string name="alert_too_bad">Esa es una pena!</string>
     <string name="like">Está bien</string>
     <string name="apps_sysupdate">Buscando aplicaciones de sistema reinstaladas. Solo un segundo…</string>
-    <string name="notify_sysupdate_title">Actualización del sistema detectada</string>
-    <string name="notify_sysupdate">Root ToolCase puede verificar si las aplicaciones del sistema eliminadas previamente se han reinstalado.</string>
     <string name="action_facebook">Facebook</string>
     <string name="reboot_systemui_title">Restart System UI</string>
     <string name="reboot_systemui_summary">Restart user interface process</string>
@@ -273,9 +269,12 @@
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_writeaccess_title">Permission Request</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Accept</string>
     <string name="alert_ignore">Exit</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_playstore">Open in Play Store</string>
+    <string name="apps_label_date">"Install date: "</string>
 
 </resources>

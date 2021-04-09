@@ -33,8 +33,6 @@
     <string name="summary_initd">Выполнить скрипты во время загрузки</string>
     <string name="summary_misc">Другие инструменты</string>
     <string name="alert_premium">Благодарю Вас за покупку!</string>
-    <string name="alert_twitter_title">ToolCase по щебетать</string>
-    <string name="alert_twitter_message">ToolCase корень в настоящее время на Twitter! \n\nFollow нам получать новости о последних обновлениях приложения и т.д.</string>
     <string name="alert_upgrade_title">Полная версия</string>
     <string name="alert_upgrade_message">Вы хотите обновиться на версию без рекламы?</string>
     <string name="message_share">Проверить «%s\": </string>
@@ -100,7 +98,7 @@
     <string name="alert_data_title">Очистить данные приложения</string>
     <string name="alert_data_message">All app data will be deleted permanently, including app settings, files etc.</string>
     <string name="alert_extract_title">Extract apk</string>
-    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Root Toolcase/Extracted\""</string>
+    <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">Do you want to integrate this update to system?</string>
     <string name="alert_overwrite_title">Notice</string>
     <string name="alert_overwrite_message">This app already exists. Do you want to overwrite the existing app?</string>
@@ -131,7 +129,7 @@
     <string name="alert_multiuninstall_na">Uninstalling multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
     <string name="alert_multifreeze_na">Freezing multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
     <string name="alert_choose_apk">Select an apk</string>
-    <string name="alert_type_title">Install \"%s\" as</string>
+    <string name="alert_type_title">Install \"%s\"</string>
     <string name="alert_type_system">Системные приложения</string>
     <string name="alert_type_user">Пользоветьские приложения</string>
     <string name="search_hint">Поиск приложения</string>
@@ -221,7 +219,7 @@
     <string name="alert_great">Great!</string>
     <string name="alert_not_again">Don\'t ask again</string>
     <string name="alert_rate_market">Please share your opinion with others on Google Play.\n\nThanks!</string>
-    <string name="alert_rate">How do you like Root ToolCase?</string>
+    <string name="alert_rate">How do you like ToolCase?</string>
     <string name="ui_design">App design needs improvement</string>
     <string name="feature_missing">A feature is missing</string>
     <string name="feature_broken">A feature is not working</string>
@@ -233,8 +231,6 @@
     <string name="alert_too_bad">That\'s too bad!</string>
     <string name="like">It\'s OK</string>
     <string name="apps_sysupdate">Looking for reinstalled system apps. Just a sec…</string>
-    <string name="notify_sysupdate_title">System update detected</string>
-    <string name="notify_sysupdate">Root ToolCase can check if previously removed system apps have been reinstalled.</string>
     <string name="action_facebook">Facebook</string>
     <string name="reboot_systemui_title">Restart System UI</string>
     <string name="reboot_systemui_summary">Restart user interface process</string>
@@ -267,9 +263,12 @@
     <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
     <string name="alert_writeaccess_title">Permission Request</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">Expert Mode requires Root Access.</string>
+    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
     <string name="action_manage">System App Manager</string>
     <string name="alert_grant">Accept</string>
     <string name="alert_ignore">Exit</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_playstore">Open in Play Store</string>
+    <string name="apps_label_date">"Install date: "</string>
 
 </resources>
