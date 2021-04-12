@@ -259,24 +259,24 @@
     <string name="menu_none">None</string>
     <string name="alert_uninstalling_pkg">Uninstalling %s</string>
     <string name="toast_no_selection">No app selected</string>
-    <string name="action_dark">Dark Mode</string>
-    <string name="action_details">Details</string>
+    <string name="action_dark">Modalità scura</string>
+    <string name="action_details">Dettagli</string>
     <string name="app_title">ToolCase by cpu82</string>
-    <string name="title_expertmode">Expert Mode</string>
-    <string name="summary_app">Useful tools for your Android device</string>
-    <string name="summary_expertmode">Activate Expert Mode for more features</string>
+    <string name="title_expertmode">Modalità esperto</string>
+    <string name="summary_app">Strumenti utili per il tuo dispositivo Android</string>
+    <string name="summary_expertmode">Attiva la modalità esperto per ulteriori funzionalità</string>
     <string name="summary_app_manager_expert">Gestisci app utente e di sistema</string>
-    <string name="alert_expertmode_title">Activate Expert Mode</string>
-    <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
-    <string name="alert_writeaccess_title">Permission Request</string>
+    <string name="alert_expertmode_title">Attiva la modalità esperto</string>
+    <string name="expertmode_required">DISPONIBILE SOLO IN MODALITÀ ESPERTO</string>
+    <string name="alert_writeaccess_title">Richiesta di permesso</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
+    <string name="alert_expertmode_message">"La modalità esperto richiede permessi di root.\n\nLe funzionalità in modalità esperto sono molto potenti, fai attenzione a usarle correttamente.\n\nLO SVILUPPATORE DI QUESTA APP NON È RESPONSABILE PER DANNI AL TUO DISPOSITIVO!"</string>
     <string name="action_manage">System App Manager</string>
-    <string name="alert_grant">Accept</string>
-    <string name="alert_ignore">Exit</string>
-    <string name="action_sort_by_date">Sort by date</string>
-    <string name="action_playstore">Open in Play Store</string>
-    <string name="apps_label_date">"Install date: "</string>
+    <string name="alert_grant">Accetta</string>
+    <string name="alert_ignore">Esce</string>
+    <string name="action_sort_by_date">Ordina per data</string>
+    <string name="action_playstore">Apra nel Play Store</string>
+    <string name="apps_label_date">"Data di installazione: "</string>
 
 </resources>
 

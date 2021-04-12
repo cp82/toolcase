@@ -263,23 +263,23 @@
     <string name="menu_none">None</string>
     <string name="alert_uninstalling_pkg">Uninstalling %s</string>
     <string name="toast_no_selection">No app selected</string>
-    <string name="action_dark">Dark Mode</string>
-    <string name="action_details">Details</string>
+    <string name="action_dark">Mode sombre</string>
+    <string name="action_details">Détails</string>
     <string name="app_title">ToolCase by cpu82</string>
-    <string name="title_expertmode">Expert Mode</string>
-    <string name="summary_app">Useful tools for your Android device</string>
-    <string name="summary_expertmode">Activate Expert Mode for more features</string>
+    <string name="title_expertmode">Mode Expert </string>
+    <string name="summary_app">Outils utiles pour votre appareil Android</string>
+    <string name="summary_expertmode">Activez le mode expert pour plus de fonctionnalités</string>
     <string name="summary_app_manager_expert">Gérer les applications utilisateur et système</string>
-    <string name="alert_expertmode_title">Activate Expert Mode</string>
+    <string name="alert_expertmode_title">Activer le mode expert</string>
     <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
-    <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
-    <string name="alert_writeaccess_title">Permission Request</string>
+    <string name="expertmode_required">UNIQUEMENT DISPONIBLE EN MODE EXPERT</string>
+    <string name="alert_writeaccess_title">"Demande d'autorisation"</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="action_manage">System App Manager</string>
-    <string name="alert_grant">Accept</string>
-    <string name="alert_ignore">Exit</string>
-    <string name="action_sort_by_date">Sort by date</string>
-    <string name="action_playstore">Open in Play Store</string>
-    <string name="apps_label_date">"Install date: "</string>
+    <string name="action_manage">"Gestionnaire d'application système"</string>
+    <string name="alert_grant">Accepter</string>
+    <string name="alert_ignore">Quitter</string>
+    <string name="action_sort_by_date">Trier par date</string>
+    <string name="action_playstore">Ouvrir dans le Play Store</string>
+    <string name="apps_label_date">"Date d'installation: "</string>
 
 </resources>

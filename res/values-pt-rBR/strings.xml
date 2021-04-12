@@ -260,22 +260,22 @@
     <string name="alert_uninstalling_pkg">Uninstalling %s</string>
     <string name="toast_no_selection">No app selected</string>
     <string name="action_dark">Dark Mode</string>
-    <string name="action_details">Details</string>
+    <string name="action_details">Detalhes</string>
     <string name="app_title">ToolCase by cpu82</string>
-    <string name="title_expertmode">Expert Mode</string>
-    <string name="summary_app">Useful tools for your Android device</string>
-    <string name="summary_expertmode">Activate Expert Mode for more features</string>
+    <string name="title_expertmode">Modo especialista</string>
+    <string name="summary_app">Ferramentas úteis para o seu dispositivo Android</string>
+    <string name="summary_expertmode">Ative o modo especialista para obter mais recursos</string>
     <string name="summary_app_manager_expert">Gerenciar aplicativo de usuario e sistema</string>
-    <string name="alert_expertmode_title">Activate Expert Mode</string>
-    <string name="expertmode_required">ONLY AVAILABLE IN EXPERT MODE</string>
-    <string name="alert_writeaccess_title">Permission Request</string>
+    <string name="alert_expertmode_title">Ative o modo especialista</string>
+    <string name="expertmode_required">DISPONÍVEL SOMENTE NO MODO EXPERT</string>
+    <string name="alert_writeaccess_title">Pedido de permissão</string>
     <string name="alert_writeaccess_summary">In order to manage apps and save settings, ToolCase needs <b>Storage</b> access.</string>
-    <string name="alert_expertmode_message">"Expert Mode requires Root Access.\n\nThe features in expert mode are very powerful, be careful to use them properly.\n\nTHE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!"</string>
+    <string name="alert_expertmode_message">"O modo especialista requer acesso root.\n\nOs recursos no modo especialista são muito poderosos, tome cuidado para usá-los corretamente.\n\nO DESENVOLVEDOR DESTE APP NÃO É RESPONSÁVEL POR DANOS AO SEU DISPOSITIVO!"</string>
     <string name="action_manage">System App Manager</string>
-    <string name="alert_grant">Accept</string>
-    <string name="alert_ignore">Exit</string>
-    <string name="action_sort_by_date">Sort by date</string>
-    <string name="action_playstore">Open in Play Store</string>
-    <string name="apps_label_date">"Install date: "</string>
+    <string name="alert_grant">Aceitar</string>
+    <string name="alert_ignore">Sair</string>
+    <string name="action_sort_by_date">Classificar por data</string>
+    <string name="action_playstore">Abrir na Play Store</string>
+    <string name="apps_label_date">"Data de instalação: "</string>
 
 </resources>

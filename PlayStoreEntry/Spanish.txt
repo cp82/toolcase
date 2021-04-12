@@ -6,37 +6,41 @@ Root ToolCase
 SHORT DESCRIPTION
 *****************
 
-¡Una gran colección de herramientas para sacar más provecho de tu teléfono Android!
+¡Herramientas útiles para su dispositivo Android!
 
 FULL DESCRIPTION
 ****************
 
-<b>REQUIERE ROOT (esta aplicación no instalará root))</b>
+<b>Gestor de aplicaiones:</b>
+★ Desinstalar aplicaciones de usuario
+★ Instalar archivos apk
+★ Ordenar aplicaciones por:
+&raquo; Nombre
+&raquo; Nombre del paquete
+&raquo; Tamaño de la aplicación o de los datos
+&raquo; Tiempo de instalación
+★ Filtrar aplicaciones por:
+&raquo; Aplicaciones del sistema / usuario
+&raquo; Aplicaciones habilitadas / deshabilitadas
+&raquo; Aplicaciones del sistema actualizadas
+&raquo; Lista personalizada
 
-<b>DISCLAMER:</b>
-The features of this app are very powerful, be careful to use them properly.
-THE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!
+<b>Funciones adicionales en el modo experto (SE REQUIERE ROOT)</b>
 
 <b>Gestor de aplicaiones:</b>
-★ Borrar los datos o caché de aplicaciones
 ★ Habilitar / deshabilitar (freeze) de aplicaciones
-★ Desinstalar de aplicaciones
+★ Borrar los datos o caché de aplicaciones
+★ Extraer archivo apk
+★ Operaciones por lotes
 
-<b>Flash Wizard:</b>
-★ Instalar flasheable zip
-★ Instalar boot (kernel)
-★ Instalar recovery
+<b>Advanced Reboot:</b>
+★ Reiniciar
+★ Reiniciar suave
+★ Cerrar
+★ Entrar en recovery
+★ Entrar en modo fastboot
+★ Entrar en modo seguro
 
-<b>Emulador Init.d:</b>
-★ Ejecutar scripts en el arranque
-★ Incluso sin soporte nativo Init.d en tus ROMs
+<b> ADB por WIFI: </b>
+★ Habilite la depuración inalámbrica
 
-<b>Editor Build.prop:</b>
-★ Editar propiedades de la ROM del Build
-
-<b>Reinicio avanzado:</b>
-★ Reiniciar, entrar en recovery o modo fastboot
-
-<b>Widgets:</b>
-★ Task Cleaner
-★ Reinicio avanzado
