@@ -1,43 +1,57 @@
 ﻿TITLE
 *****
 
-Root ToolCase
+ToolCase
 
 SHORT DESCRIPTION
 *****************
 
-A great collection of tools to get more out of your android device!
+आपके Android डिवाइस के लिए उपयोगी उपकरण
 
 FULL DESCRIPTION
 ****************
 
-<b>ROOT REQUIRED (this app won't root your device)</b>
+<b>एप्प मैनेजर:</b>
+★ उपयोगकर्ता एप्लिकेशन की स्थापना रद्द करें
+★ APK फ़ाइलों को स्थापित करें
+★ द्वारा क्रमबद्ध करें:
+&raquo; नाम
+&raquo; पैकेज का नाम
+&raquo; ऐप या डेटा का आकार
+&raquo; स्थापना दिवस
+★ फ़िल्टर अनुप्रयोग:
+&raquo; प्रणाली अनुप्रयोगों / उपयोगकर्ता अनुप्रयोगों
+&raquo; सक्षम / अक्षम ऐप्स
+&raquo; नवीनीकृत सिस्टम अनुप्रयोग
+&raquo; कस्टम सूची
+★ सिस्टम ऐप मैनेजर में खोलें
+★ Google Play में खोलें
+★ शेयर ऐप लिंक
 
-<b>DISCLAMER:</b>
-The features of this app are very powerful, be careful to use them properly.
-THE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!
+<b>विशेषज्ञ मोड में अतिरिक्त सुविधाएँ (रूट की आवश्यकता)</b>
 
-<b>App Manager:</b>
-★ clear app data or app cache
-★ enable/disable (freeze) apps
-★ uninstall apps
+<b>एप्प मैनेजर:</b>
+अक्षम करें
+सक्षम करें
+★ एप्लिकेशन सक्षम या अक्षम करें
+★ स्पष्ट डेटा या कैश
+★ APK फ़ाइल को निकालें
+★ बैच संचालन
 
-<b>Flash Wizard:</b>
-★ install flashable zip files
-★ create flash queue for several zip files
-★ flash boot (kernel) images
-★ flash recovery images
+<b>उन्नत रिबूट:</b>
+★ रीबूट करें
+★ क्विक रिबूट
+★ पॉवर ऑफ
+★ रिबूट रिकवरी
+★ रीबूट करने के लिए बूटलोडर
+★ सुरक्षित मोड में रिबूट
 
-<b>Init.d Emulator:</b>
-★ run scripts at startup
-★ no native init.d support required
+<b>वायरलेस ADB:</b>
+★ अपने कंप्यूटर से कनेक्ट करने के लिए वायरलेस ADB को सक्षम करें
 
-<b>Build.prop Editor:</b>
-★ edit your ROM's build properties
 
-<b>Advanced Reboot:</b>
-★ Boot into recovery or bootloader (fastboot)
+<b> अनुमतियाँ </ b>
 
-<b>Widgets:</b>
-★ Task Cleaner
-★ Advanced Reboot
+एपीके फाइलों को संभालने के लिए निम्नलिखित अनुमतियों की आवश्यकता होती है:
+★ READ_EXTERNAL_STORAGE
+★ WRITE_EXTERNAL_STORAGE
