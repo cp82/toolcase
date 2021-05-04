@@ -1,37 +1,20 @@
 <resources>
     <!--Main Activity-->
     <string name="app_name">ToolCase</string>
-    <string name="action_pro">去除廣告</string>
     <string name="action_about">關於</string>
     <string name="action_translate">翻譯</string>
-    <string name="action_settings">設定</string>
     <string name="title_advanced_reboot">進階重啟</string>
-    <string name="title_initd">Init.d模仿器</string>
-    <string name="title_root">需要ROOT權限</string>
-    <string name="title_flasher">刷機嚮導</string>
     <string name="title_buildprop">Build.prop編輯器</string>
-    <string name="title_misc">Miscellaneous</string>
     <string name="title_activity_app_manager">程式管理員</string>
     <string name="title_activity_app">程式資訊</string>
     <string name="title_activity_reboot">進階重啟</string>
-    <string name="title_activity_init_d">Init.d模仿器</string>
-    <string name="title_activity_editor">編輯器</string>
-    <string name="title_activity_build_prop">Build.prop編輯器</string>
-    <string name="title_activity_misc">Miscellaneous tools</string>
     <string name="alert_translate_title">應用程式翻譯</string>
     <string name="alert_translate_message">您願意將該應用程式翻譯成您的本地語言嗎?</string>
     <string name="alert_translate_yes">"是的，我願意"</string>
     <string name="alert_translate_no">"不，謝謝"</string>
     <string name="summary_app_manager">管理用戶與系統程式</string>
     <string name="summary_reboot">重新開機，進入Recovery或Fastboot模式</string>
-    <string name="summary_root">本程式需Root權限才能正常運作</string>
     <string name="summary_buildprop">"編輯您的ROM的Build屬性值"</string>
-    <string name="summary_misc">Miscellaneous tools</string>
-    <string name="summary_initd">開機時運行腳本</string>
-    <string name="alert_premium">非常謝謝您升級到付費版!</string>
-    <string name="alert_upgrade_title">升級</string>
-    <string name="alert_upgrade_message">您是不是要升級到無廣告版?</string>
-    <string name="ad_failed">請升級到無廣告版以支持開發者</string>
 
     <!--Flash Wizard-->
 
@@ -59,7 +42,6 @@
     <string name="action_sort_by_appsize">按程式大小排序</string>
     <string name="action_sort_by_datasize">按資料大小排序</string>
     <string name="action_sort_by_totalsize">按總大小排序</string>
-    <string name="action_title">選擇一種動作</string>
     <string name="action_uninstall">解除安裝</string>
     <string name="action_freeze">凍結</string>
     <string name="action_unfreeze">解凍</string>
@@ -71,7 +53,6 @@
     <string name="app_disabled">已凍結</string>
     <string name="appinfo_name">名稱:</string>
     <string name="appinfo_pkg">包名:</string>
-    <string name="appinfo_status">狀態:</string>
     <string name="appinfo_version">版本:</string>
     <string name="appinfo_path">路徑:</string>
     <string name="appinfo_memory">記憶體用量</string>
@@ -84,8 +65,6 @@
     <string name="meminfo_cache">快取:</string>
     <string name="alert_data_title">清除程式資料</string>
     <string name="alert_data_message">全部程式資料將會被徹底刪除。包括程式設定、檔案等等。</string>
-    <string name="alert_uninstall_title">解除安裝程式</string>
-    <string name="alert_uninstall_system_title">解除安裝系統程式</string>
     <string name="alert_uninstall_message">您真的要解除安裝該程式?</string>
     <string name="alert_uninstall_system_message">您真的要解除安裝該 <b>系統程式</b>?\n請注意，移除錯誤應用程式可能會發生嚴重問題。 在這種情形下，，需要重刷系統。</string>
     <string name="alert_uninstalling">正在解除安裝</string>
@@ -93,7 +72,6 @@
     <string name="alert_disabling">正在凍結</string>
     <string name="alert_clear_data">正在刪除程式資料</string>
     <string name="alert_clear_cache">正在清除程式快取</string>
-    <string name="alert_title_config">刷機選項</string>
     <string name="alert_list">Select custom list</string>
     <string name="alert_newlist">Create new list</string>
     <string name="alert_newlist_title">New custom list</string>
@@ -129,26 +107,16 @@
 
 
     <!--Build.prop Editor-->
-    <string name="alert_reboot_title">重新開機</string>
     <string name="alert_reboot_later">稍後</string>
-    <string name="alert_reboot_message">是否立即重新開機讓變更生效?</string>
-    <string name="alert_reboot_message2">為了讓變更生效，您需要重新開機。\n\n現在重啟?</string>
 
     <!--General dialogs-->
-    <string name="alert_title_root">需要Root權限</string>
     <string name="alert_root">該程式需要Root訪問權限</string>
     <string name="alert_yes">是</string>
-    <string name="alert_sure">"確定，我願意"</string>
     <string name="alert_no">否</string>
     <string name="alert_no_thanks">不，謝謝</string>
     <string name="alert_ok">好的</string>
-    <string name="alert_save">保存</string>
-    <string name="alert_discard">放棄</string>
     <string name="alert_cancel">取消</string>
     <string name="search_title">搜尋</string>
-    <string name="status_requesting_root">正在請求Root訪問權限</string>
-    <string name="status_load_main">正在載入主介面</string>
-    <string name="btn_cancel">取消</string>
     <string name="toast_error">發生錯誤</string>
 
 
@@ -160,7 +128,6 @@
     <!--About Page-->
     <string name="title_about">關於</string>
     <string name="title_betatest">Beta測試員</string>
-    <string name="title_status">狀態</string>
     <string name="title_translation">中文繁体翻譯</string>
     <string name="translators">WhaleMajda</string>
 
@@ -172,51 +139,25 @@
     <string name="spellcheck_summary">Enable or disable spell check (red underlines)</string>
 
     <!-- Account -->
-    <string name="loading">Loading…</string>
-    <string name="chanced_device">Changed your device?</string>
-    <string name="action_account">User account</string>
     <string name="action_share">Share</string>
     <string name="message_share">\"Check out \"%s\": \"</string>
-    <string name="status_requesting_write">Requesting write access</string>
     <string name="alert_attention">Attention</string>
-    <string name="alert_cache_title">Clear app cache</string>
     <string name="alert_continue">Continue</string>
-    <string name="alert_freeze_title">Disable apps</string>
     <string name="alert_progress">%1$s (%2$d/%3$d)</string>
     <string name="alert_multiuninstall_na">Uninstalling multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
     <string name="alert_multifreeze_na">Freezing multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
-    <string name="alert_unfreeze_title">Enable apps</string>
     <string name="action_delete_list">Delete current list</string>
     <string name="alert_nolist_message">No custom list found</string>
-    <string name="alert_play_ad">Play ad</string>
-    <string name="alert_premium_title">Premium feature</string>
-    <string name="alert_premium_message">This is a premium feature. Please upgrade to the ad-free version.  Alternatively, you can watch a video ad to unlock this feature for this session.</string>
-    <string name="alert_upgrade">Upgrade</string>
-    <string name="toast_error_videoad">Error playing video ad. Please check your internet connection and ad-block settings and try again!</string>
     <string name="toast_error_nolist">No list found</string>
     <string name="toast_error_existinglist">This list already exists</string>
-    <string name="action_convert_system">Convert to system app</string>
-    <string name="action_convert_user">Convert to user app</string>
     <string name="action_extract">Extract</string>
-    <string name="action_integrate_update">Integrate update to system</string>
     <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Toolcase/Extracted\""</string>
-    <string name="alert_extract_title">Extract apk</string>
     <string name="alert_integrate_update">Do you want to integrate this update to system?</string>
     <string name="toast_extract_success">%1$s successfully extracted</string>
     <string name="alert_choose_apk">Select an apk</string>
-    <string name="alert_install_success">Installation successful</string>
-    <string name="alert_installing">Installing</string>
-    <string name="alert_overwrite_title">Notice</string>
-    <string name="alert_overwrite_message">This app already exists. Do you want to overwrite the existing app?</string>
     <string name="alert_type_user">User app</string>
     <string name="alert_type_system">System app</string>
     <string name="alert_type_title">Install \"%s\"</string>
-    <string name="alert_updated_sysapp_message">This is an updated system app. Please uninstall the update first or try installing as user app.</string>
-    <string name="alert_overwrite_sysapp_message">This system app already exists.\\n\\nOverwriting system apps may corrupt your system. In that case, you may need to reflash your ROM.\\n\\nDo you want to overwrite the existing app?</string>
-    <string name="toast_version">This feature is currently only available for Android 5.0+</string>
-    <string name="action_follow">Follow</string>
-    <string name="mountrw_title">Mount System R/W</string>
-    <string name="mountrw_summary">Mount system partition (/system) readable/writable instead of read-only</string>
     <string name="language_title">Change system language</string>
     <string name="alert_select_language">Select language</string>
     <string name="alert_hint_title">Hint</string>
@@ -247,19 +188,8 @@
     <string name="alert_safemode_title">Reboot to Safe Mode</string>
     <string name="alert_reboot_safemode">Restarting in Safe Mode</string>
     <string name="alert_safemode_message">Do you really want to reboot your device in safe mode? Only system apps will be loaded.\n\nTo exit safe mode, just reboot your device again.</string>
-    <string name="action_wiki">幫助</string>
-    <string name="action_bloatware">Report bloatware</string>
 
 
-    <string name="alert_details">Show details</string>
-    <string name="toast_feedback">Thank you for your feedback!</string>
-    <string name="number_reports">%d reports</string>
-    <string name="safe_percentage">%d %% safe to remove</string>
-    <string name="bloatware_found">%1$d apps found</string>
-    <string name="menu_all">All</string>
-    <string name="menu_none">None</string>
-    <string name="alert_uninstalling_pkg">Uninstalling %s</string>
-    <string name="toast_no_selection">No app selected</string>
     <string name="action_dark">Dark Mode</string>
     <string name="action_details">Details</string>
     <string name="app_title">ToolCase by cpu82</string>

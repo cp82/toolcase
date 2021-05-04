@@ -1,43 +1,113 @@
 ﻿TITLE
 *****
 
-Root ToolCase
+ToolCase - Device Info, App Manager, Reboot
 
 SHORT DESCRIPTION
 *****************
 
-Android cihazınızdan daha fazla yararlanmak için harika bir araç koleksiyonu!
+Easily manage your apps, view device info, boot into recovery or bootloader
 
 FULL DESCRIPTION
 ****************
 
-<b>ROOT GEREKLİ (bu uygulama cihazınızı rootlamaz.)</b>
+<b>Device Info:</b>
+★ Overview
+&raquo; Device Overview
+&raquo; RAM Usage
+&raquo; Internal Memory Usage
+&raquo; Battery Level and Capacity
 
-<b>SORUMLULUK REDDİ:</b>
-Bu uygulamanın özellikleri çok güçlüdür, bunları düzgün bir şekilde kullanmaya özen gösterin.
-BU UYGULAMANIN GELİŞTİRİCİSİ, CİHAZINIZIN ZARARLARINDAN SORUMLU DEĞİLDİR!
+★ Device
+&raquo; Device Name
+&raquo; Model
+&raquo; Manufacturer
+&raquo; Brand
+&raquo; Device
+&raquo; Board
+&raquo; Platform
+&raquo; Hardware
+&raquo; Device Fingerprint
+&raquo; Network Operator
 
-<b>Uygulama Yöneticisi:</b>
-★ Uygulama verilerini ve önbelleğini temizleyin
-★ Uygulamaları etkinleştirin/devre dışı bırakın (dondurun)
-★ Uygulamaları kaldırın
+★ System
+&raquo; Android Version and Codename
+&raquo; API Level
+&raquo; Build
+&raquo; Build ID
+&raquo; Incremental Version
+&raquo; MIUI Version (if applicable)
+&raquo; Security Patch Level
+&raquo; Baseband Version
+&raquo; Kernel Version
+&raquo; Java VM Type and Version
+&raquo; Bootloader Version
+&raquo; Root Status
+&raquo; OpenGL ES Version
 
-<b>Flaşlama Sihirbazı:</b>
-★ Flaşlanabilir zip dosyaları yükleyin
-★ Birkaç zip dosyası için flaşlama sırası oluşturun
-★ Boot (kernel) image dosyaları flaşlayın
-★ Recovery (kurtarma) image dosyaları flaşlayın
+★ SoC
+&raquo; Processor
+&raquo; Hardware
+&raquo; Cluster
+&raquo; Process
+&raquo; ABIs
+&raquo; Number of Cores
+&raquo; Clock Speed
+&raquo; Scaling Governor
+&raquo; GPU Vendor
+&raquo; GPU Renderer
 
-<b>Init.d Emülatörü:</b>
-★ Başlangıçta komut dosyaları çalıştırın
-★ Orijinal init.d desteği gerekli değil
+★ Battery
+&raquo; Health
+&raquo; Level
+&raquo; Charging State
+&raquo; Power Source
+&raquo; Battery Technology
+&raquo; Temperature
+&raquo; Voltage
 
-<b>Build.prop Düzenleyicisi:</b>
-★ ROM'unuzun sürüm özelliklerini düzenleyin
 
-<b>Gelişmiş Yeniden Başlatma:</b>
-★ Cihazınızı recovery (kurtarma) veya bootloader modunda başlatın
+<b>App Manager:</b>
+★ Sort apps by:
+&raquo; Name
+&raquo; Package name
+&raquo; App or data size
+&raquo; Install time
+★ Filter apps by:
+&raquo; System/User apps
+&raquo; Enabled/Disabled apps
+&raquo; Updated system apps
+&raquo; Custom list
+★ Open in system app manager
+★ Uninstall user apps
+★ Install apk files
+★ Open in Google Play
+★ Share app link
 
-<b>Widget'lar:</b>
-★ Görev Temizleyicisi
-★ Gelişmiş Yeniden Başlatma
+
+<b>Additional Features in Expert Mode (ROOT REQUIRED)</b>
+
+<b>App Manager:</b>
+★ Enable/disable (freeze) apps
+★ Clear data or cache
+★ Extract apk file
+★ Batch operations
+
+<b>Advanced Reboot:</b>
+★ Standard reboot
+★ Soft Reboot
+★ Power Off
+★ Reboot to recovery
+★ Reboot to bootloader (fastboot)
+★ Reboot to safe mode
+
+<b>ADB over WIFI:</b>
+★ Enable wireless debugging
+
+
+
+<b>Permissions</b>
+
+Following permissions are required in order to handle apk files:
+★ READ_EXTERNAL_STORAGE
+★ WRITE_EXTERNAL_STORAGE

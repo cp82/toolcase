@@ -1,19 +1,73 @@
 ﻿TITLE
 *****
 
-ToolCase
+ToolCase - Device Info, App Manager, Reboot
 
 SHORT DESCRIPTION
 *****************
 
-Useful tools for your android device!
+Easily manage your apps, view device info, boot into recovery or bootloader
 
 FULL DESCRIPTION
 ****************
 
+<b>Device Info:</b>
+★ Overview
+&raquo; Device Overview
+&raquo; RAM Usage
+&raquo; Internal Memory Usage
+&raquo; Battery Level and Capacity
+
+★ Device
+&raquo; Device Name
+&raquo; Model
+&raquo; Manufacturer
+&raquo; Brand
+&raquo; Device
+&raquo; Board
+&raquo; Platform
+&raquo; Hardware
+&raquo; Device Fingerprint
+&raquo; Network Operator
+
+★ System
+&raquo; Android Version and Codename
+&raquo; API Level
+&raquo; Build
+&raquo; Build ID
+&raquo; Incremental Version
+&raquo; MIUI Version (if applicable)
+&raquo; Security Patch Level
+&raquo; Baseband Version
+&raquo; Kernel Version
+&raquo; Java VM Type and Version
+&raquo; Bootloader Version
+&raquo; Root Status
+&raquo; OpenGL ES Version
+
+★ SoC
+&raquo; Processor
+&raquo; Hardware
+&raquo; Cluster
+&raquo; Process
+&raquo; ABIs
+&raquo; Number of Cores
+&raquo; Clock Speed
+&raquo; Scaling Governor
+&raquo; GPU Vendor
+&raquo; GPU Renderer
+
+★ Battery
+&raquo; Health
+&raquo; Level
+&raquo; Charging State
+&raquo; Power Source
+&raquo; Battery Technology
+&raquo; Temperature
+&raquo; Voltage
+
+
 <b>App Manager:</b>
-★ Uninstall user apps
-★ Install apk files
 ★ Sort apps by:
 &raquo; Name
 &raquo; Package name
@@ -25,8 +79,11 @@ FULL DESCRIPTION
 &raquo; Updated system apps
 &raquo; Custom list
 ★ Open in system app manager
+★ Uninstall user apps
+★ Install apk files
 ★ Open in Google Play
 ★ Share app link
+
 
 <b>Additional Features in Expert Mode (ROOT REQUIRED)</b>
 

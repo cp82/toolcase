@@ -1,42 +1,23 @@
 <resources>
     <!--Main Activity-->
     <string name="app_name">ToolCase</string>
-    <string name="action_pro">Odstranit reklamy</string>
     <string name="action_about">O aplikaci</string>
     <string name="action_translate">Překlad</string>
     <string name="action_share">Sdílet</string>
     <string name="action_rate">Hodnotit</string>
-    <string name="action_follow">Sledovat</string>
-    <string name="action_account">Uživatelský účet</string>
-    <string name="action_settings">Nastavení</string>
     <string name="title_advanced_reboot">Rozšířený restart</string>
-    <string name="title_initd">Init.d emulátor</string>
-    <string name="title_root">VYŽADOVÁN ROOT</string>
-    <string name="title_flasher">Průvodce flash</string>
     <string name="title_buildprop">Build.prop editor</string>
-    <string name="title_misc">Ostatní</string>
     <string name="title_activity_app_manager">Správce aplikací</string>
     <string name="title_activity_app">Informace o aplikaci</string>
     <string name="title_activity_reboot">Rozšířený restart</string>
-    <string name="title_activity_init_d">Init.d emulátor</string>
-    <string name="title_activity_editor">Editor</string>
-    <string name="title_activity_build_prop">Build.prop editor</string>
-    <string name="title_activity_misc">Ostatní nástroje</string>
     <string name="alert_translate_title">Překlad aplikace</string>
     <string name="alert_translate_message">Chcete přispět k lokalizaci této aplikace?</string>
     <string name="alert_translate_yes">"Ano, chci"</string>
     <string name="alert_translate_no">"Ne, děkuji"</string>
     <string name="summary_app_manager">Spravujte uživatelské a systémové aplikace</string>
     <string name="summary_reboot">Restart, spuštění recovery nebo fastboot režimu</string>
-    <string name="summary_root">Pro správnou funkci tato aplikace vyžaduje root zařízení. Click for more information!</string>
     <string name="summary_buildprop">"Upravte vlastnosti sestavení Vaší ROM"</string>
-    <string name="summary_initd">Spouštění skriptů při startu</string>
-    <string name="summary_misc">Ostatní nástroje</string>
-    <string name="alert_premium">Děkujeme za přechod na verzi premium!</string>
-    <string name="alert_upgrade_title">Upgrade</string>
-    <string name="alert_upgrade_message">Chcete přejít na verzi bez reklam?</string>
     <string name="message_share">"Kontrola \"%s\": "</string>
-    <string name="ad_failed">Useful tools for your Android device.</string>
 
     <!--Flash Wizard-->
 
@@ -65,16 +46,12 @@
     <string name="action_sort_by_appsize">Seřadit podle velikosti aplikace</string>
     <string name="action_sort_by_datasize">Seřadit podle velikosti dat</string>
     <string name="action_sort_by_totalsize">Seřadit podle celkové velikosti</string>
-    <string name="action_title">Vyberte akci</string>
     <string name="action_uninstall">Odinstalovat</string>
     <string name="action_freeze">Deaktivovat</string>
     <string name="action_unfreeze">Aktivovat</string>
     <string name="action_clear_data">Vymazat data</string>
     <string name="action_clear_cache">Vymazat mezipaměť</string>
     <string name="action_extract">Rozbalit</string>
-    <string name="action_convert_system">Konvertovat jako systémovou aplikaci</string>
-    <string name="action_convert_user">Kovertovat jako uživatelskou aplikaci</string>
-    <string name="action_integrate_update">Integrovat aktualizaci do systému</string>
     <string name="action_multiselect">Výběr více položek</string>
     <string name="action_customlist">Přidat do vlastního seznamu</string>
     <string name="action_delete_list">Vymazat současný seznam</string>
@@ -82,7 +59,6 @@
     <string name="app_disabled">NEAKTIVNÍ</string>
     <string name="appinfo_name">Jméno:</string>
     <string name="appinfo_pkg">Balíček:</string>
-    <string name="appinfo_status">Stav:</string>
     <string name="appinfo_version">Verze:</string>
     <string name="appinfo_path">Cesta:</string>
     <string name="appinfo_memory">Využití paměti</string>
@@ -93,37 +69,20 @@
     <string name="meminfo_data">Data:</string>
     <string name="meminfo_extdata">Data (ext.):</string>
     <string name="meminfo_cache">Cache:</string>
-    <string name="alert_freeze_title">Deaktivovat aplikace</string>
-    <string name="alert_unfreeze_title">Aktivovat aplikace</string>
     <string name="alert_attention">Upozornění</string>
-    <string name="alert_cache_title">Vymazat mezipaměť aplikace</string>
     <string name="alert_data_title">Vymazat data aplikace</string>
     <string name="alert_data_message">Budou navždy vymazána všechna data aplikace zahrnující nastavení aplikace, soubory atd.</string>
-    <string name="alert_extract_title">Rozbalit aplikaci</string>
     <string name="alert_extract_message">"Chcete rozbalit soubor aplikace?\n\nSoubor uložen:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">Chcete integrovat tuto aktualizaci do systému?</string>
-    <string name="alert_overwrite_title">Poznámka</string>
-    <string name="alert_overwrite_message">Tato aplikace již existuje. Chcete přepsat existující aplikaci?</string>
-    <string name="alert_overwrite_sysapp_message">Tato systémová aplikace již existuje.\n\nPřepsáním systémové aplikace hrozí poškození systému. Pokud se tak stane, možná budete muset provést znovu flashnutí Vaší ROM.\n\nChcete přepsat existující aplikaci?</string>
-    <string name="alert_updated_sysapp_message">Toto je aktualizovaná systémová aplikace. Nejdříve odinstalujte aktualizaci anebo ji zkuste nainstalovat jako uživatelskou aplikaci.</string>
-    <string name="alert_uninstall_title">Odinstalace aplikace</string>
-    <string name="alert_uninstall_system_title">Odinstalace systémové aplikace</string>
     <string name="alert_uninstall_message">Opravdu chcete odinstalovat tuto aplikaci?</string>
     <string name="alert_uninstall_system_message">Opravdu chcete odinstalovat tuto <b>SYSTÉMOVÁ APLIKACE</b>?\nPamatujte, že odebrání špatné aplikace může způsobit mnoho problémů. Pokud se tak stane, možná budete muset provést znovu flashnutí Vaší ROM.</string>
     <string name="alert_uninstalling">Odinstalace</string>
-    <string name="alert_installing">Instalace</string>
-    <string name="alert_install_success">Instalace proběhla úspěšně</string>
     <string name="alert_enabling">Aktivovat</string>
     <string name="alert_disabling">Deaktivovat</string>
     <string name="alert_clear_data">Smazání data aplikace</string>
     <string name="alert_clear_cache">Smazání mezipaměti aplikace</string>
-    <string name="alert_title_config">Možnosti flashnutí</string>
     <string name="alert_list">Výběr vlastního seznamu</string>
     <string name="alert_nolist_message">Nenalezen žádný vlastní seznam</string>
-    <string name="alert_premium_title">Premiová funkce</string>
-    <string name="alert_premium_message">Toto je prémiová funkce. Prosím, aktualizujte na verzi bez reklam.\n\nPřípadně se můžete podívat na reklamní video, čímž odemknete funkci pro tuto sekci.</string>
-    <string name="alert_upgrade">Aktualizace</string>
-    <string name="alert_play_ad">Přehraj reklamu</string>
     <string name="alert_newlist">Vytvoř nový seznam</string>
     <string name="alert_newlist_title">Nový vlastní seznam</string>
     <string name="alert_newlist_message">Zadej jméno vlastního seznamu aplikací</string>
@@ -142,7 +101,6 @@
     <string name="toast_error_nolist">Žádný seznam nenalezen</string>
     <string name="toast_error_existinglist">Tento seznam již existuje!</string>
     <string name="toast_newlist_failed">Chyba při vytváření seznamu</string>
-    <string name="toast_error_videoad">Chyba při přehrávání reklamního videa. Zkontrolujte, prosím, Vaše připojení k internetu či nastavení blokování reklam a zkuste znovu!</string>
     <string name="alert_hint_title">Tip</string>
     <string name="alert_hint_message">Na aplikaci můžete také použít rychlé akce.\n\nMenu rychlých akci otevřete delším podržením výběru u položky v seznamu!</string>
 
@@ -171,29 +129,17 @@
 
 
     <!--Build.prop Editor-->
-    <string name="alert_reboot_title">Restart</string>
     <string name="alert_reboot_later">Později</string>
-    <string name="alert_reboot_message">Restartovat k provedení Vašich změn?</string>
-    <string name="alert_reboot_message2">K provedení změn je nutné restartovat Vaše zařízení. Restartovat nyní?</string>
-    <string name="toast_version">Tato funkce je nyní k dispozici pouze pro Android 5.0+</string>
 
     <!--General dialogs-->
-    <string name="alert_title_root">Požadován root</string>
     <string name="alert_root">Tato aplikace vyžaduje root přístup</string>
     <string name="alert_yes">Ano</string>
-    <string name="alert_sure">"Ano, souhlasím"</string>
     <string name="alert_no">Ne</string>
     <string name="alert_no_thanks">Ne, děkuji</string>
     <string name="alert_ok">OK</string>
-    <string name="alert_save">Uložit</string>
-    <string name="alert_discard">Zahodit změny</string>
     <string name="alert_cancel">Zrušit</string>
     <string name="alert_continue">Pokračovat</string>
     <string name="search_title">Hledat</string>
-    <string name="status_requesting_root">Požadavek na root přístup</string>
-    <string name="status_requesting_write">Požadavek na právo zápisu</string>
-    <string name="status_load_main">Načítání hlavní obrazovky</string>
-    <string name="btn_cancel">Zrušit</string>
     <string name="toast_error">Vyskytla se chyba</string>
 
 
@@ -214,17 +160,12 @@
     <string name="adb_connect">K připojení tohoto zařízení zadej \"adb connect %s:5555\"</string>
     <string name="spellcheck_title">Kontrola pravopisu</string>
     <string name="spellcheck_summary">Zapnout nebo vypnout kontrolu pravopisu (podtrženo červeně)</string>
-    <string name="mountrw_title">Připojení System R/W</string>
-    <string name="mountrw_summary">Připojit systémový oddíl (/system) na čtení/zápis místo jen ke čtení</string>
     <string name="language_title">Změna jazyka</string>
     <string name="alert_select_language">Výběr jazyka</string>
 
 
     <!-- Account -->
-    <string name="loading">Načítám...</string>
 
-    <string name="title_status">Stav</string>
-    <string name="chanced_device">Vaše zařízení bylo změněno?</string>
     <string name="awesome">Je to úžasné!</string>
     <string name="like">Je to OK</string>
     <string name="dislike">Není to až tak dobré</string>
@@ -251,18 +192,7 @@
     <string name="alert_safemode_title">Reboot to Safe Mode</string>
     <string name="alert_safemode_message">Do you really want to reboot your device in safe mode? Only system apps will be loaded.\n\nTo exit safe mode, just reboot your device again.</string>
     <string name="alert_reboot_safemode">Restarting in Safe Mode</string>
-    <string name="action_wiki">Pomoci</string>
-    <string name="action_bloatware">Report bloatware</string>
 
-    <string name="alert_details">Show details</string>
-    <string name="toast_feedback">Thank you for your feedback!</string>
-    <string name="number_reports">%d reports</string>
-    <string name="safe_percentage">%d %% safe to remove</string>
-    <string name="bloatware_found">%1$d apps found</string>
-    <string name="menu_all">All</string>
-    <string name="menu_none">None</string>
-    <string name="alert_uninstalling_pkg">Uninstalling %s</string>
-    <string name="toast_no_selection">No app selected</string>
     <string name="action_dark">Dark Mode</string>
     <string name="action_details">Details</string>
     <string name="app_title">ToolCase by cpu82</string>

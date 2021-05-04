@@ -1,43 +1,113 @@
 ﻿TITLE
 *****
 
-Root ToolCase
+ToolCase - Device Info, App Manager, Reboot
 
 SHORT DESCRIPTION
 *****************
 
-一个能发挥您的安卓设备更多作用的工具合集！
+Easily manage your apps, view device info, boot into recovery or bootloader
 
 FULL DESCRIPTION
 ****************
 
-<b>需要Root权限 (本应用不能Root您的设备)</b>
+<b>Device Info:</b>
+★ Overview
+&raquo; Device Overview
+&raquo; RAM Usage
+&raquo; Internal Memory Usage
+&raquo; Battery Level and Capacity
 
-<b>免责声明:</b>
-本应用的功能非常强大，请谨慎使用。
-本应用的开发者不对您的设备发生问题承担任何责任！
+★ Device
+&raquo; Device Name
+&raquo; Model
+&raquo; Manufacturer
+&raquo; Brand
+&raquo; Device
+&raquo; Board
+&raquo; Platform
+&raquo; Hardware
+&raquo; Device Fingerprint
+&raquo; Network Operator
 
-<b>应用管理器:</b>
-★ 清除应用数据或应用缓存
-★ 启用/停用(冻结)应用
-★ 卸载应用
+★ System
+&raquo; Android Version and Codename
+&raquo; API Level
+&raquo; Build
+&raquo; Build ID
+&raquo; Incremental Version
+&raquo; MIUI Version (if applicable)
+&raquo; Security Patch Level
+&raquo; Baseband Version
+&raquo; Kernel Version
+&raquo; Java VM Type and Version
+&raquo; Bootloader Version
+&raquo; Root Status
+&raquo; OpenGL ES Version
 
-<b>刷机向导:</b>
-★ 安装刷机包文件
-★ 创建Zip文件刷机队列
-★ 刷入Boot(内核)镜像
-★ 刷入Recovery镜像
+★ SoC
+&raquo; Processor
+&raquo; Hardware
+&raquo; Cluster
+&raquo; Process
+&raquo; ABIs
+&raquo; Number of Cores
+&raquo; Clock Speed
+&raquo; Scaling Governor
+&raquo; GPU Vendor
+&raquo; GPU Renderer
 
-<b>Init.d模拟器:</b>
-★ 开机时运行脚本
-★ 无需本地init.d支持
+★ Battery
+&raquo; Health
+&raquo; Level
+&raquo; Charging State
+&raquo; Power Source
+&raquo; Battery Technology
+&raquo; Temperature
+&raquo; Voltage
 
-<b>Build.prop编辑器:</b>
-★ 编辑您的ROM的build.prop属性
 
-<b>高级重启:</b>
-★ 重启至Recovery或Bootloader(fastboot)
+<b>App Manager:</b>
+★ Sort apps by:
+&raquo; Name
+&raquo; Package name
+&raquo; App or data size
+&raquo; Install time
+★ Filter apps by:
+&raquo; System/User apps
+&raquo; Enabled/Disabled apps
+&raquo; Updated system apps
+&raquo; Custom list
+★ Open in system app manager
+★ Uninstall user apps
+★ Install apk files
+★ Open in Google Play
+★ Share app link
 
-<b>小部件:</b>
-★ 任务清理
-★ 高级重启
+
+<b>Additional Features in Expert Mode (ROOT REQUIRED)</b>
+
+<b>App Manager:</b>
+★ Enable/disable (freeze) apps
+★ Clear data or cache
+★ Extract apk file
+★ Batch operations
+
+<b>Advanced Reboot:</b>
+★ Standard reboot
+★ Soft Reboot
+★ Power Off
+★ Reboot to recovery
+★ Reboot to bootloader (fastboot)
+★ Reboot to safe mode
+
+<b>ADB over WIFI:</b>
+★ Enable wireless debugging
+
+
+
+<b>Permissions</b>
+
+Following permissions are required in order to handle apk files:
+★ READ_EXTERNAL_STORAGE
+★ WRITE_EXTERNAL_STORAGE

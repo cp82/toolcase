@@ -1,44 +1,24 @@
 <resources>
     <!--Main Activity-->
     <string name="app_name">ToolCase</string>
-    <string name="action_pro">Reklamları kaldır</string>
     <string name="action_about">Hakkında</string>
     <string name="action_translate">Çeviri yap</string>
     <string name="action_share">Paylaş</string>
     <string name="action_rate">Değerlendir</string>
     <string name="action_facebook">Facebook</string>
-    <string name="action_wiki">Yardım</string>
-    <string name="action_follow">Takip et</string>
-    <string name="action_account">Kullanıcı hesabı</string>
-    <string name="action_settings">Ayarlar</string>
     <string name="title_advanced_reboot">Gelişmiş Yeniden Başlatma</string>
-    <string name="title_initd">Init.d Emülatörü</string>
-    <string name="title_root">ROOT GEREKLİ</string>
-    <string name="title_flasher">Flaşlama Sihirbazı</string>
     <string name="title_buildprop">Build.prop Düzenleyicisi</string>
-    <string name="title_misc">Çeşitli</string>
     <string name="title_activity_app_manager">Uygulama Yöneticisi</string>
     <string name="title_activity_app">Uygulama Bilgisi</string>
     <string name="title_activity_reboot">Gelişmiş Yeniden Başlatma</string>
-    <string name="title_activity_init_d">Init.d Emülatörü</string>
-    <string name="title_activity_editor">Düzenleyici</string>
-    <string name="title_activity_build_prop">Build.prop Düzenleyicisi</string>
-    <string name="title_activity_misc">Çeşitli araçlar</string>
     <string name="alert_translate_title">Uygulama çevirisi</string>
     <string name="alert_translate_message">Bu uygulamanın çevirisine katkıda bulunmak ister misiniz?</string>
     <string name="alert_translate_yes">"Tabii ki, isterim"</string>
     <string name="alert_translate_no">"Hayır, teşekkürler"</string>
     <string name="summary_app_manager">Kullanıcı ve sistem uygulamalarını yönetin</string>
     <string name="summary_reboot">Yeniden başlatın, recovery veya fastboot moduna girin</string>
-    <string name="summary_root">Bu uygulamanın düzgün çalışması için root gerekiyor</string>
     <string name="summary_buildprop">"ROM'unuzun sürüm özelliklerini düzenleyin"</string>
-    <string name="summary_initd">Açılış sırasında komut dosyalarını çalıştırın</string>
-    <string name="summary_misc">Diğer araçlar</string>
-    <string name="alert_premium">Premium sürüme yükselttiğiniz için teşekkür ederiz!</string>
-    <string name="alert_upgrade_title">Yükselt</string>
-    <string name="alert_upgrade_message">Reklamsız sürüme yükseltmek ister misiniz?</string>
     <string name="message_share">"\"%s\" uygulamasına göz atın: "</string>
-    <string name="ad_failed">Geliştiriciyi desteklemek için lütfen reklamsız sürüme yükseltin</string>
 
 
     <!--Flash Wizard-->
@@ -68,25 +48,19 @@
     <string name="action_sort_by_appsize">Apk boyutuna göre sırala</string>
     <string name="action_sort_by_datasize">Veri boyutuna göre sırala</string>
     <string name="action_sort_by_totalsize">Toplam boyuta göre sırala</string>
-    <string name="action_title">Bir eylem seçin</string>
     <string name="action_uninstall">Kaldır</string>
     <string name="action_freeze">Devre dışı bırak</string>
     <string name="action_unfreeze">Etkinleştir</string>
     <string name="action_clear_data">Verileri temizle</string>
     <string name="action_clear_cache">Önbelleği temizle</string>
     <string name="action_extract">Çıkart</string>
-    <string name="action_convert_system">Sistem uygulaması yap</string>
-    <string name="action_convert_user">Kullanıcı uygulaması yap</string>
-    <string name="action_integrate_update">Güncellemeyi sisteme entegre et</string>
     <string name="action_multiselect">Çoklu seçim</string>
     <string name="action_customlist">Özel listeye ekle</string>
     <string name="action_delete_list">Geçerli listeyi sil</string>
-	<string name="action_bloatware">"Bloatware'i bildir"</string>
     <string name="app_updated">GÜNCELLENDİ</string>
     <string name="app_disabled">DEVRE DIŞI BIRAKILDI</string>
     <string name="appinfo_name">Adı:</string>
     <string name="appinfo_pkg">Paket adı:</string>
-    <string name="appinfo_status">Durum:</string>
     <string name="appinfo_version">Sürüm:</string>
     <string name="appinfo_path">Yol:</string>
     <string name="appinfo_memory">Depolama alanı kullanımı</string>
@@ -97,38 +71,20 @@
     <string name="meminfo_data">Veri:</string>
     <string name="meminfo_extdata">Veri (harici.):</string>
     <string name="meminfo_cache">Önbellek:</string>
-    <string name="alert_freeze_title">Uygulamaları devre dışı bırak</string>
-    <string name="alert_unfreeze_title">Uygulamaları etkinleştir</string>
     <string name="alert_attention">Dikkat</string>
-    <string name="alert_cache_title">Uygulama önbelleğini temizle</string>
     <string name="alert_data_title">Uygulama verilerini temizle</string>
     <string name="alert_data_message">Uygulama ayarları, dosyaları vb. dahil tüm uygulama verileri kalıcı olarak silinecektir.</string>
-    <string name="alert_extract_title">"Apk'yi çıkart"</string>
     <string name="alert_extract_message">"Bu uygulamanın apk dosyasını çıkartmak istiyor musunuz?\n\nDosyayı şu klasörde bulacaksınız:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">Bu güncellemeyi sisteme entegre etmek istiyor musunuz?</string>
-    <string name="alert_overwrite_title">Uyarı</string>
-    <string name="alert_overwrite_message">Bu uygulama zaten var. Var olan uygulamanın üzerine yazmak istiyor musunuz?</string>
-    <string name="alert_overwrite_sysapp_message">"Bu sistem uygulaması zaten var.\n\nVar olan sistem uygulamasının üzerine yazmak sisteminizi bozabilir. Bu durumda, ROM'unuzu yeniden flaşlamanız gerekebilir.\n\nVar olan uygulamanın üzerine yazmak istiyor musunuz?"</string>
-    <string name="alert_updated_sysapp_message">Bu güncellenen bir sistem uygulamasıdır. Lütfen önce güncellemeyi kaldırın veya kullanıcı uygulaması olarak yüklemeyi deneyin.</string>
-    <string name="alert_uninstall_title">Uygulamayı kaldır</string>
-    <string name="alert_uninstall_system_title">Sistem uygulamasını kaldır</string>
     <string name="alert_uninstall_message">Bu uygulamayı gerçekten kaldırmak istiyor musunuz?</string>
     <string name="alert_uninstall_system_message">"Bu <b>SİSTEM UYGULAMASI</b>nı gerçekten kaldırmak istiyor musunuz?\nYanlış uygulamaların kaldırılmasının ciddi sorunlara neden olabileceğini unutmayın. Bu durumda ROM\'u yeniden flaşlamanız gerekebilir."</string>
     <string name="alert_uninstalling">Kaldırılıyor</string>
-	<string name="alert_uninstalling_pkg">%s kaldırılıyor</string>
-    <string name="alert_installing">Yükleniyor</string>
-    <string name="alert_install_success">Yükleme başarılı</string>
     <string name="alert_enabling">Etkinleştiriliyor</string>
     <string name="alert_disabling">Devre dışı bırakılıyor</string>
     <string name="alert_clear_data">Uygulama verileri temizleniyor</string>
     <string name="alert_clear_cache">Uygulama önbelleği temizleniyor</string>
-    <string name="alert_title_config">Flaşlama seçenekleri</string>
     <string name="alert_list">Özel liste seçin</string>
     <string name="alert_nolist_message">Özel liste bulunamadı</string>
-    <string name="alert_premium_title">Premium özelliği</string>
-    <string name="alert_premium_message">"Bu bir premium özelliğidir. Lütfen reklamsız sürüme yükseltin.\n\nAlternatif olarak, bu oturum için bu özelliğin kilidini açmak için bir reklam videosu izleyebilirsiniz."</string>
-    <string name="alert_upgrade">Yükselt</string>
-    <string name="alert_play_ad">Reklamı oynat</string>
     <string name="alert_newlist">Yeni liste oluştur</string>
     <string name="alert_newlist_title">Yeni özel liste</string>
     <string name="alert_newlist_message">Özel uygulama listeniz için bir ad girin</string>
@@ -147,7 +103,6 @@
     <string name="toast_error_nolist">Liste bulunamadı</string>
     <string name="toast_error_existinglist">Bu liste zaten var!</string>
     <string name="toast_newlist_failed">Liste oluşturulurken hata oluştu</string>
-    <string name="toast_error_videoad">Reklam videosu oynatılırken hata oluştu. Lütfen internet bağlantınızı ve reklam engelleme ayarlarınızı kontrol edip tekrar deneyin!</string>
     <string name="alert_hint_title">İpucu</string>
     <string name="alert_hint_message">Uygulamalarda hızlı işlemleri de kullanabilirsiniz.\n\nBir liste girdisine uzun basarak hızlı işlem menüsünü açın!</string>
 
@@ -185,29 +140,17 @@
 
 
     <!--Build.prop Editor-->
-    <string name="alert_reboot_title">Yeniden başlat</string>
     <string name="alert_reboot_later">Daha sonra</string>
-    <string name="alert_reboot_message">Değişikliklerin etkili olması için şimdi yeniden başlatılsın mı?</string>
-    <string name="alert_reboot_message2">Değişikliklerin etkili olması için cihazınızı yeniden başlatmanız gerekiyor. Şimdi yeniden başlatılsın mı?</string>
-    <string name="toast_version">Bu özellik şu anda sadece Android 5.0 veya daha yeni bir sürüm için kullanılabilir</string>
 
     <!--General dialogs-->
-    <string name="alert_title_root">Root gerekli</string>
     <string name="alert_root">Bu uygulama için root erişimi gerekiyor</string>
     <string name="alert_yes">Evet</string>
-    <string name="alert_sure">"Tabii ki, isterim"</string>
     <string name="alert_no">Hayır</string>
     <string name="alert_no_thanks">Hayır, teşekkürler</string>
     <string name="alert_ok">Tamam</string>
-    <string name="alert_save">Kaydet</string>
-    <string name="alert_discard">Yoksay</string>
     <string name="alert_cancel">İptal</string>
     <string name="alert_continue">Devam</string>
     <string name="search_title">Ara</string>
-    <string name="status_requesting_root">Root erişimi isteniyor</string>
-    <string name="status_requesting_write">Yazma erişimi isteniyor</string>
-    <string name="status_load_main">Ana ekran yükleniyor</string>
-    <string name="btn_cancel">İptal</string>
     <string name="toast_error">Bir hata oluştu</string>
 
 
@@ -228,17 +171,12 @@
     <string name="adb_connect">Bu cihaza bağlanmak için \"adb connect %s:5555\" komutunu kullanın</string>
     <string name="spellcheck_title">Yazım denetimi</string>
     <string name="spellcheck_summary">Yazım denetimini (kırmızı altı çizgiler) etkinleştirin veya devre dışı bırakın</string>
-    <string name="mountrw_title">Sistemi R/W olarak bağla</string>
-    <string name="mountrw_summary">Sistem (/system) bölümünü salt okunur yerine okunabilir/yazılabilir olarak bağlayın</string>
     <string name="language_title">Sistem dilini deiştir</string>
     <string name="alert_select_language">Dil seçin</string>
 
 
     <!-- Account -->
-    <string name="loading">Yükleniyor…</string>
 
-    <string name="title_status">Durum</string>
-    <string name="chanced_device">Cihazınızı değiştirdiniz mi?</string>
     <string name="awesome">Harika!</string>
     <string name="like">İyi</string>
     <string name="dislike">Çok iyi değil</string>
@@ -258,15 +196,6 @@
     <string name="ui_design">Uygulama tasarımının geliştirilmesi gerekiyor</string>
     <string name="comment">Yorum yap</string>
 
-    <string name="alert_details">Ayrıntıları göster</string>
-    <string name="toast_feedback">Geri bildiriminiz için teşekkür ederiz!</string>
-    <string name="number_reports">%d bildiri</string>
-    <string name="safe_percentage">%% %d kaldırmak güvenli</string>
-    <string name="bloatware_found">%1$d uygulama bulundu</string>
-    <string name="menu_all">Tümü</string>
-    <string name="menu_none">Hiçbiri</string>
-
-    <string name="toast_no_selection">No app selected</string>
     <string name="action_dark">Dark Mode</string>
     <string name="action_details">Details</string>
     <string name="app_title">ToolCase by cpu82</string>

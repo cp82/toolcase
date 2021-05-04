@@ -1,15 +1,71 @@
 ﻿TITLE
 *****
 
-ToolCase
+ToolCase - Geräteinfo, App Manager, Neustart
 
 SHORT DESCRIPTION
 *****************
 
-Nützliche Tools für Ihr Android-Gerät!
+Verwalte komfortabel deine Apps, Neustart ins Recovery oder in den Bootloader
 
 FULL DESCRIPTION
 ****************
+
+<b>Geräteinfo:</b>
+★ Überblick
+&raquo; Geräte-Überblick
+&raquo; RAM
+&raquo; Interner Speicher
+&raquo; Akkustand
+
+★ Gerät
+&raquo; Gerätename
+&raquo; Modell
+&raquo; Hersteller
+&raquo; Marke
+&raquo; Gerät
+&raquo; Board
+&raquo; Plattform
+&raquo; Hardware
+&raquo; Geräte-Fingerabdruck
+&raquo; Netzbetreiber
+
+★ System
+&raquo; Android Version und Codename
+&raquo; API Level
+&raquo; Build
+&raquo; Build ID
+&raquo; Inkrementelle Version
+&raquo; MIUI Version (wenn verfügbar)
+&raquo; Sicherheits-Patch-Level
+&raquo; Basisbandversion
+&raquo; Kernelversion
+&raquo; Java VM Typ und Version
+&raquo; Bootloaderversion
+&raquo; Root Status
+&raquo; OpenGL ES Version
+
+★ SoC
+&raquo; Prozessor
+&raquo; Hardware
+&raquo; Cluster
+&raquo; Prozess
+&raquo; ABIs
+&raquo; Anzahl der Kerne
+&raquo; Momentane und maximale Taktfrequenz
+&raquo; CPU-Steuerung
+&raquo; GPU Hersteller
+&raquo; GPU Renderer
+
+★ Battery
+&raquo; Zustand
+&raquo; Level
+&raquo; Status
+&raquo; Energiequelle
+&raquo; Akkutechnologie
+&raquo; Temperature
+&raquo; Spannung
+
 
 <b>App Manager:</b>
 ★ Benutzerapps deinstallieren
@@ -33,7 +89,7 @@ FULL DESCRIPTION
 <b>App Manager:</b>
 ★ Appdaten und Appcache löschen
 ★ Apps aktivieren/deaktivieren (einfrieren)
-★ APK Dateien extrahieren
+★ APK-Dateien extrahieren
 ★ Batch-Operationen
 
 <b>Erweiterter Neustart:</b>
@@ -54,4 +110,3 @@ FULL DESCRIPTION
 Die folgenden Berechtigungen sind erforderlich, um APK-Dateien zu verarbeiten:
 ★ READ_EXTERNAL_STORAGE
 ★ WRITE_EXTERNAL_STORAGE
-

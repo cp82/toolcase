@@ -1,42 +1,113 @@
 ﻿TITLE
 *****
 
-Root ToolCase
+ToolCase - Device Info, App Manager, Reboot
 
 SHORT DESCRIPTION
 *****************
 
-Una grande collezione di strumenti per ottenere il massimo dal tuo smartphone!
+Easily manage your apps, view device info, boot into recovery or bootloader
 
 FULL DESCRIPTION
 ****************
 
-<b>ROOT RICHIESTO (questa applicazione non installerà root)</b>
+<b>Device Info:</b>
+★ Overview
+&raquo; Device Overview
+&raquo; RAM Usage
+&raquo; Internal Memory Usage
+&raquo; Battery Level and Capacity
 
-<b>DISCLAMER:</b>
-The features of this app are very powerful, be careful to use them properly.
-THE DEVELOPER OF THIS APP IS NOT RESPONSIBLE FOR DAMAGES TO YOUR DEVICE!
+★ Device
+&raquo; Device Name
+&raquo; Model
+&raquo; Manufacturer
+&raquo; Brand
+&raquo; Device
+&raquo; Board
+&raquo; Platform
+&raquo; Hardware
+&raquo; Device Fingerprint
+&raquo; Network Operator
 
-<b>Gestione App:</b>
-★ Cancella la cache o i dati dell'app
-★ Abilita / disabilita (freeze) le app
-★ Disinstalla le app
+★ System
+&raquo; Android Version and Codename
+&raquo; API Level
+&raquo; Build
+&raquo; Build ID
+&raquo; Incremental Version
+&raquo; MIUI Version (if applicable)
+&raquo; Security Patch Level
+&raquo; Baseband Version
+&raquo; Kernel Version
+&raquo; Java VM Type and Version
+&raquo; Bootloader Version
+&raquo; Root Status
+&raquo; OpenGL ES Version
 
-<b>Flash Wizard:</b>
-★ Installa archivi zip
-★ Installa immagine di boot (kernel)
-★ Installa immagine di recovery
+★ SoC
+&raquo; Processor
+&raquo; Hardware
+&raquo; Cluster
+&raquo; Process
+&raquo; ABIs
+&raquo; Number of Cores
+&raquo; Clock Speed
+&raquo; Scaling Governor
+&raquo; GPU Vendor
+&raquo; GPU Renderer
 
-<b>Emulatore di Init.d:</b>
-★ Esegui script al boot
-★ Anche su ROM senza supporto nativo per Init.d
+★ Battery
+&raquo; Health
+&raquo; Level
+&raquo; Charging State
+&raquo; Power Source
+&raquo; Battery Technology
+&raquo; Temperature
+&raquo; Voltage
 
-<b>Editor di build.prop:</b>
-★ Modifica le proprietà di build della tua ROM
 
-<b>Reboot avanzato:</b>
-★ Riavvia, entra in recovery o in modalità fastboot
+<b>App Manager:</b>
+★ Sort apps by:
+&raquo; Name
+&raquo; Package name
+&raquo; App or data size
+&raquo; Install time
+★ Filter apps by:
+&raquo; System/User apps
+&raquo; Enabled/Disabled apps
+&raquo; Updated system apps
+&raquo; Custom list
+★ Open in system app manager
+★ Uninstall user apps
+★ Install apk files
+★ Open in Google Play
+★ Share app link
 
-<b>Widgets:</b>
-★ Task Cleaner
-★ Reboot avanzato
+
+<b>Additional Features in Expert Mode (ROOT REQUIRED)</b>
+
+<b>App Manager:</b>
+★ Enable/disable (freeze) apps
+★ Clear data or cache
+★ Extract apk file
+★ Batch operations
+
+<b>Advanced Reboot:</b>
+★ Standard reboot
+★ Soft Reboot
+★ Power Off
+★ Reboot to recovery
+★ Reboot to bootloader (fastboot)
+★ Reboot to safe mode
+
+<b>ADB over WIFI:</b>
+★ Enable wireless debugging
+
+
+
+<b>Permissions</b>
+
+Following permissions are required in order to handle apk files:
+★ READ_EXTERNAL_STORAGE
+★ WRITE_EXTERNAL_STORAGE

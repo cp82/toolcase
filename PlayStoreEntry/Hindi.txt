@@ -1,57 +1,113 @@
 ﻿TITLE
 *****
 
-ToolCase
+ToolCase - Device Info, App Manager, Reboot
 
 SHORT DESCRIPTION
 *****************
 
-आपके Android डिवाइस के लिए उपयोगी उपकरण
+Easily manage your apps, view device info, boot into recovery or bootloader
 
 FULL DESCRIPTION
 ****************
 
-<b>एप्प मैनेजर:</b>
-★ उपयोगकर्ता एप्लिकेशन की स्थापना रद्द करें
-★ APK फ़ाइलों को स्थापित करें
-★ द्वारा क्रमबद्ध करें:
-&raquo; नाम
-&raquo; पैकेज का नाम
-&raquo; ऐप या डेटा का आकार
-&raquo; स्थापना दिवस
-★ फ़िल्टर अनुप्रयोग:
-&raquo; प्रणाली अनुप्रयोगों / उपयोगकर्ता अनुप्रयोगों
-&raquo; सक्षम / अक्षम ऐप्स
-&raquo; नवीनीकृत सिस्टम अनुप्रयोग
-&raquo; कस्टम सूची
-★ सिस्टम ऐप मैनेजर में खोलें
-★ Google Play में खोलें
-★ शेयर ऐप लिंक
+<b>Device Info:</b>
+★ Overview
+&raquo; Device Overview
+&raquo; RAM Usage
+&raquo; Internal Memory Usage
+&raquo; Battery Level and Capacity
 
-<b>विशेषज्ञ मोड में अतिरिक्त सुविधाएँ (रूट की आवश्यकता)</b>
+★ Device
+&raquo; Device Name
+&raquo; Model
+&raquo; Manufacturer
+&raquo; Brand
+&raquo; Device
+&raquo; Board
+&raquo; Platform
+&raquo; Hardware
+&raquo; Device Fingerprint
+&raquo; Network Operator
 
-<b>एप्प मैनेजर:</b>
-अक्षम करें
-सक्षम करें
-★ एप्लिकेशन सक्षम या अक्षम करें
-★ स्पष्ट डेटा या कैश
-★ APK फ़ाइल को निकालें
-★ बैच संचालन
+★ System
+&raquo; Android Version and Codename
+&raquo; API Level
+&raquo; Build
+&raquo; Build ID
+&raquo; Incremental Version
+&raquo; MIUI Version (if applicable)
+&raquo; Security Patch Level
+&raquo; Baseband Version
+&raquo; Kernel Version
+&raquo; Java VM Type and Version
+&raquo; Bootloader Version
+&raquo; Root Status
+&raquo; OpenGL ES Version
 
-<b>उन्नत रिबूट:</b>
-★ रीबूट करें
-★ क्विक रिबूट
-★ पॉवर ऑफ
-★ रिबूट रिकवरी
-★ रीबूट करने के लिए बूटलोडर
-★ सुरक्षित मोड में रिबूट
+★ SoC
+&raquo; Processor
+&raquo; Hardware
+&raquo; Cluster
+&raquo; Process
+&raquo; ABIs
+&raquo; Number of Cores
+&raquo; Clock Speed
+&raquo; Scaling Governor
+&raquo; GPU Vendor
+&raquo; GPU Renderer
 
-<b>वायरलेस ADB:</b>
-★ अपने कंप्यूटर से कनेक्ट करने के लिए वायरलेस ADB को सक्षम करें
+★ Battery
+&raquo; Health
+&raquo; Level
+&raquo; Charging State
+&raquo; Power Source
+&raquo; Battery Technology
+&raquo; Temperature
+&raquo; Voltage
 
 
-<b> अनुमतियाँ </ b>
+<b>App Manager:</b>
+★ Sort apps by:
+&raquo; Name
+&raquo; Package name
+&raquo; App or data size
+&raquo; Install time
+★ Filter apps by:
+&raquo; System/User apps
+&raquo; Enabled/Disabled apps
+&raquo; Updated system apps
+&raquo; Custom list
+★ Open in system app manager
+★ Uninstall user apps
+★ Install apk files
+★ Open in Google Play
+★ Share app link
 
-एपीके फाइलों को संभालने के लिए निम्नलिखित अनुमतियों की आवश्यकता होती है:
+
+<b>Additional Features in Expert Mode (ROOT REQUIRED)</b>
+
+<b>App Manager:</b>
+★ Enable/disable (freeze) apps
+★ Clear data or cache
+★ Extract apk file
+★ Batch operations
+
+<b>Advanced Reboot:</b>
+★ Standard reboot
+★ Soft Reboot
+★ Power Off
+★ Reboot to recovery
+★ Reboot to bootloader (fastboot)
+★ Reboot to safe mode
+
+<b>ADB over WIFI:</b>
+★ Enable wireless debugging
+
+
+
+<b>Permissions</b>
+
+Following permissions are required in order to handle apk files:
 ★ READ_EXTERNAL_STORAGE
 ★ WRITE_EXTERNAL_STORAGE

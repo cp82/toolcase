@@ -1,40 +1,22 @@
 <resources>
     <!--Main Activity-->
     <string name="app_name">ToolCase</string>
-    <string name="action_pro">Rimuovi pubblicità</string>
     <string name="action_about">Info</string>
     <string name="action_translate">Traduci</string>
     <string name="action_share">Condividi</string>
-    <string name="action_account">Account</string>
-    <string name="action_settings">Impostazioni</string>
     <string name="title_advanced_reboot">Reboot avanzato</string>
-    <string name="title_initd">Emulatore di Init.d</string>
-    <string name="title_root">ROOT RICHIESTO</string>
-    <string name="title_flasher">Flash Wizard</string>
     <string name="title_buildprop">Editor di build.prop</string>
-    <string name="title_misc">Miscellaneo</string>
     <string name="title_activity_app_manager">Gestione App</string>
     <string name="title_activity_app">Informazioni App</string>
     <string name="title_activity_reboot">Reboot avanzato</string>
-    <string name="title_activity_init_d">Emulatore di Init.d</string>
-    <string name="title_activity_editor">Editor</string>
-    <string name="title_activity_build_prop">Editor di build.prop</string>
-    <string name="title_activity_misc">Altri utensili</string>
     <string name="alert_translate_title">Traduzione App</string>
     <string name="alert_translate_message">Vuoi contribuire alla traduzione di questa app?</string>
     <string name="alert_translate_yes">"Certo!"</string>
     <string name="alert_translate_no">"No grazie"</string>
     <string name="summary_app_manager">Gestisci app utente e di sistema</string>
     <string name="summary_reboot">Riavvia, entra in recovery o in modalità fastboot</string>
-    <string name="summary_root">"Quest'app ha bisogno dei permessi di root per funzionare correttamente. Click for more information!"</string>
     <string name="summary_buildprop">"Modifica le proprietà di build della tua ROM"</string>
-    <string name="summary_misc">Altri utensili</string>
-    <string name="summary_initd">Esegui script al boot</string>
-    <string name="alert_premium">Grazie per aver comprato il Premium!</string>
-    <string name="alert_upgrade_title">Migliora</string>
-    <string name="alert_upgrade_message">Vuoi passare alla versione senza pubblicità?</string>
     <string name="message_share">"Guarda \"%s\": "</string>
-    <string name="ad_failed">Passa alla versione senza pubblicità per supportare lo sviluppatore</string>
 
     <!--Flash Wizard-->
 
@@ -62,7 +44,6 @@
     <string name="action_sort_by_appsize">Ordina per dimensione APK</string>
     <string name="action_sort_by_datasize">Ordina per dimensione dati</string>
     <string name="action_sort_by_totalsize">Ordina per dimensione totale</string>
-    <string name="action_title">"Scegli un'azione"</string>
     <string name="action_uninstall">Disinstalla</string>
     <string name="action_freeze">Disabilita</string>
     <string name="action_unfreeze">Abilita</string>
@@ -74,7 +55,6 @@
     <string name="app_disabled">DISABILITATO </string>
     <string name="appinfo_name">Nome:</string>
     <string name="appinfo_pkg">Pacchetto:</string>
-    <string name="appinfo_status">Stato:</string>
     <string name="appinfo_version">Versione:</string>
     <string name="appinfo_path">Percorso:</string>
     <string name="appinfo_memory">Uso memoria</string>
@@ -87,8 +67,6 @@
     <string name="meminfo_cache">Cache:</string>
     <string name="alert_data_title">Cancella dati app</string>
     <string name="alert_data_message">"Tutti i dati dell'app verranno cancellati permamentemente, inclusi impostazioni, file ecc."</string>
-    <string name="alert_uninstall_title">Disinstalla app</string>
-    <string name="alert_uninstall_system_title">Disinstalla app di sistema</string>
     <string name="alert_uninstall_message">"Vuoi davvero disinstallare quest'app?"</string>
     <string name="alert_uninstall_system_message">"Vuoi davvero disinstallare questa <b>APP DI SISTEMA</b>?\nDisinstallare un\'app sbagliata può causare seri problemi. In tal caso dovresti riflashare l\'intera ROM."</string>
     <string name="alert_uninstalling">Disinstallando</string>
@@ -96,7 +74,6 @@
     <string name="alert_disabling">Disabilitando</string>
     <string name="alert_clear_data">"Cancellando i dati dell'app"</string>
     <string name="alert_clear_cache">"Cancellando la cache dell'app"</string>
-    <string name="alert_title_config">Opzioni di flash</string>
     <string name="alert_list">Select custom list</string>
     <string name="alert_newlist">Create new list</string>
     <string name="alert_newlist_title">New custom list</string>
@@ -132,27 +109,16 @@
 
 
     <!--Build.prop Editor-->
-    <string name="alert_reboot_title">Riavvia</string>
     <string name="alert_reboot_later">Più tardi</string>
-    <string name="alert_reboot_message">Riavviare ora per applicare i cambiamenti?</string>
-    <string name="alert_reboot_message2">Per applicare i cambiamenti, è necessario riavviare il dispositivo.\n\nRiavviare ora?</string>
 
     <!--General dialogs-->
-    <string name="alert_title_root">Root richiesto</string>
     <string name="alert_root">"Quest'app ha bisogno dei permessi di root"</string>
     <string name="alert_yes">Sì</string>
-    <string name="alert_sure">"Certo"</string>
     <string name="alert_no">No</string>
     <string name="alert_no_thanks">No, grazie</string>
     <string name="alert_ok">OK</string>
-    <string name="alert_save">Salva</string>
-    <string name="alert_discard">Scarta</string>
     <string name="alert_cancel">Cancella</string>
     <string name="search_title">Cerca</string>
-    <string name="status_requesting_root">Richiedendo i permessi di root</string>
-    <string name="status_requesting_write">Richiedendo i permessi di scrittura</string>
-    <string name="status_load_main">Caricando la schermata principale</string>
-    <string name="btn_cancel">Cancella</string>
     <string name="toast_error">"C'è stato un errore"</string>
 
 
@@ -174,49 +140,24 @@
     <string name="spellcheck_summary">Enable or disable spell check (red underlines)</string>
 
     <!-- Account -->
-    <string name="loading">Caricamento…</string>
 
-    <string name="title_status">Stato</string>
-    <string name="chanced_device">Hai cambiato dispositivo?</string>
     <string name="alert_attention">Attention</string>
-    <string name="alert_cache_title">Clear app cache</string>
     <string name="alert_continue">Continue</string>
-    <string name="alert_freeze_title">Disable apps</string>
     <string name="alert_progress">%1$s (%2$d/%3$d)</string>
     <string name="alert_multiuninstall_na">Uninstalling multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
     <string name="alert_multifreeze_na">Freezing multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
-    <string name="alert_unfreeze_title">Enable apps</string>
     <string name="action_delete_list">Delete current list</string>
     <string name="alert_nolist_message">No custom list found</string>
-    <string name="alert_play_ad">Play ad</string>
-    <string name="alert_premium_title">Premium feature</string>
-    <string name="alert_premium_message">This is a premium feature. Please upgrade to the ad-free version.  Alternatively, you can watch a video ad to unlock this feature for this session.</string>
-    <string name="alert_upgrade">Upgrade</string>
-    <string name="toast_error_videoad">Error playing video ad. Please check your internet connection and ad-block settings and try again!</string>
     <string name="toast_error_nolist">No list found</string>
     <string name="toast_error_existinglist">This list already exists</string>
-    <string name="action_convert_system">Convert to system app</string>
-    <string name="action_convert_user">Convert to user app</string>
     <string name="action_extract">Extract</string>
-    <string name="action_integrate_update">Integrate update to system</string>
     <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Toolcase/Extracted\""</string>
-    <string name="alert_extract_title">Extract apk</string>
     <string name="alert_integrate_update">Do you want to integrate this update to system?</string>
     <string name="toast_extract_success">%1$s successfully extracted</string>
     <string name="alert_choose_apk">Select an apk</string>
-    <string name="alert_install_success">Installation successful</string>
-    <string name="alert_installing">Installing</string>
-    <string name="alert_overwrite_title">Notice</string>
-    <string name="alert_overwrite_message">This app already exists. Do you want to overwrite the existing app?</string>
     <string name="alert_type_user">User app</string>
     <string name="alert_type_system">System app</string>
     <string name="alert_type_title">Install \"%s\"</string>
-    <string name="alert_updated_sysapp_message">This is an updated system app. Please uninstall the update first or try installing as user app.</string>
-    <string name="alert_overwrite_sysapp_message">This system app already exists.\n\nOverwriting system apps may corrupt your system. In that case, you may need to reflash your ROM.\n\nDo you want to overwrite the existing app?</string>
-    <string name="toast_version">This feature is currently only available for Android 5.0+</string>
-    <string name="action_follow">Follow</string>
-    <string name="mountrw_title">Mount System R/W</string>
-    <string name="mountrw_summary">Mount system partition (/system) readable/writable instead of read-only</string>
     <string name="language_title">Cambia la lingua del sistema</string>
     <string name="alert_select_language">Seleziona la lingua</string>
     <string name="alert_hint_title">Suggerimento</string>
@@ -247,18 +188,7 @@
     <string name="alert_reboot_safemode">Restarting in Safe Mode</string>
     <string name="alert_safemode_title">Reboot to Safe Mode</string>
     <string name="alert_safemode_message">Do you really want to reboot your device in safe mode? Only system apps will be loaded.\n\nTo exit safe mode, just reboot your device again.</string>
-    <string name="action_wiki">Aiuto</string>
-    <string name="action_bloatware">Report bloatware</string>
 
-    <string name="alert_details">Show details</string>
-    <string name="toast_feedback">Thank you for your feedback!</string>
-    <string name="number_reports">%d reports</string>
-    <string name="safe_percentage">%d %% safe to remove</string>
-    <string name="bloatware_found">%1$d apps found</string>
-    <string name="menu_all">All</string>
-    <string name="menu_none">None</string>
-    <string name="alert_uninstalling_pkg">Uninstalling %s</string>
-    <string name="toast_no_selection">No app selected</string>
     <string name="action_dark">Modalità scura</string>
     <string name="action_details">Dettagli</string>
     <string name="app_title">ToolCase by cpu82</string>

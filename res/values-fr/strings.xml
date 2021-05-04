@@ -1,41 +1,22 @@
 <resources>
     <!--Main Activity-->
     <string name="app_name">ToolCase</string>
-    <string name="action_pro">Supprimer les réclames</string>
     <string name="action_about">À propos</string>
     <string name="action_translate">Traduire</string>
     <string name="action_share">Partager</string>
-    <string name="action_follow">Suivre</string>
-    <string name="action_account">"Compte d'utilisateur"</string>
-    <string name="action_settings">Settings</string>
     <string name="title_advanced_reboot">Redémarrage avancé</string>
-    <string name="title_initd">"Emulateur d'Init.d"</string>
-    <string name="title_root">ROOT REQUIS</string>
-    <string name="title_flasher">Assistant Flash</string>
     <string name="title_buildprop">Éditeur de Build.prop</string>
-    <string name="title_misc">Divers</string>
     <string name="title_activity_app_manager">"Gestionnaire d'application"</string>
     <string name="title_activity_app">"Informations sur l'application"</string>
     <string name="title_activity_reboot">Redémarrage avancé</string>
-    <string name="title_activity_init_d">"Emulateur d'Init.d"</string>
-    <string name="title_activity_editor">Editeur</string>
-    <string name="title_activity_build_prop">Editeur de Build.prop</string>
-    <string name="title_activity_misc">Outils divers</string>
     <string name="alert_translate_title">"Traduction de l'application"</string>
     <string name="alert_translate_message">"Souhaitez-vous contribuer à votre traduction locale de cette application?"</string>
     <string name="alert_translate_yes">"Bien sûr"</string>
     <string name="alert_translate_no">"Non merci"</string>
     <string name="summary_app_manager">Gérer les applications utilisateur et système</string>
     <string name="summary_reboot">Reboot, enter recovery or fastboot mode</string>
-    <string name="summary_root">This app requires root to function properly. Click for more information!</string>
     <string name="summary_buildprop">"Modifier les propriétés de Build de votre ROM"</string>
-    <string name="summary_initd">Exécuter des scripts au démarrage</string>
-    <string name="summary_misc">Outils divers</string>
-    <string name="alert_premium">"Merci d'avoir mis à niveau vers la version premium!"</string>
-    <string name="alert_upgrade_title">Mise à niveau</string>
-    <string name="alert_upgrade_message">Voulez-vous acheter la mise à niveau vers la version sans réclames?</string>
     <string name="message_share">"Check out \"%s\": "</string>
-    <string name="ad_failed">Veuillez acheter la version sans réclames de soutenir le développeur</string>
 
     <!--Flash Wizard-->
 
@@ -63,16 +44,12 @@
     <string name="action_sort_by_appsize">"Trier par taille d'apk"</string>
     <string name="action_sort_by_datasize">Trier par taille de données</string>
     <string name="action_sort_by_totalsize">Trier par taille totale</string>
-    <string name="action_title">Choisissez une action</string>
     <string name="action_uninstall">Désinstaller</string>
     <string name="action_freeze">Désactiver</string>
     <string name="action_unfreeze">Activer</string>
     <string name="action_clear_data">Effacer les données</string>
     <string name="action_clear_cache">Vider le cache</string>
     <string name="action_extract">Extrait</string>
-    <string name="action_convert_system">Convert to system app</string>
-    <string name="action_convert_user">Convert to user app</string>
-    <string name="action_integrate_update">Integrate update to system</string>
     <string name="action_multiselect">Sélection multiple</string>
     <string name="action_customlist">Ajouter à la liste</string>
     <string name="action_delete_list">Supprimer la liste actuelle</string>
@@ -80,7 +57,6 @@
     <string name="app_disabled">DÉSACTIVER</string>
     <string name="appinfo_name">Nom:</string>
     <string name="appinfo_pkg">Paquet:</string>
-    <string name="appinfo_status">Statut:</string>
     <string name="appinfo_version">Version:</string>
     <string name="appinfo_path">Chemin:</string>
     <string name="appinfo_memory">Utilisation de la mémoire</string>
@@ -91,37 +67,20 @@
     <string name="meminfo_data">Données:</string>
     <string name="meminfo_extdata">Données (ext.):</string>
     <string name="meminfo_cache">Cache:</string>
-    <string name="alert_freeze_title">Désactiver les applications</string>
-    <string name="alert_unfreeze_title">Activer les applications</string>
     <string name="alert_attention">Attention</string>
-    <string name="alert_cache_title">Vider le cache</string>
     <string name="alert_data_title">Effacer les données</string>
     <string name="alert_data_message">"Toutes les données de l'application seront supprimées en permanence, y compris les paramètres de l'application, les fichiers, etc."</string>
-    <string name="alert_extract_title">"Extrait l'apk"</string>
     <string name="alert_extract_message">"Voulez-vous extraire le fichier apk de cette application?\n\nVous trouverez le fichier sous:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">Do you want to integrate this update to system?</string>
-    <string name="alert_overwrite_title">Remarquer</string>
-    <string name="alert_overwrite_message">"Cette application existe déjà. Voulez-vous remplacer l'application existante?"</string>
-    <string name="alert_overwrite_sysapp_message">"Cette application système existe déjà.\n\nL'écrasement des applications système peut endommager votre système. Dans ce cas, vous devrez peut-être réinstaller votre ROM.\n\nVoulez-vous écraser l'application existante?"</string>
-    <string name="alert_updated_sysapp_message">This is an updated system app. Please uninstall the update first or try installing as user app.</string>
-    <string name="alert_uninstall_title">"Désinstaller l'application"</string>
-    <string name="alert_uninstall_system_title">"Désinstaller l'application systeme"</string>
     <string name="alert_uninstall_message">Voulez-vous vraiment désinstaller cette application?</string>
     <string name="alert_uninstall_system_message">"Voulez-vous vraiment désinstaller cette <b>APPLICATION SYSTEME</b>?\nSoyez conscient que l\'élimination des mauvaises applications peut causer des problèmes sérieux. Dans ce cas, vous devrez réinstaller le ROM complet."</string>
     <string name="alert_uninstalling">Désinstallation</string>
-    <string name="alert_installing">Installation</string>
-    <string name="alert_install_success">Installation réussie</string>
     <string name="alert_enabling">Activation</string>
     <string name="alert_disabling">Désactivation</string>
     <string name="alert_clear_data">Suppression des données</string>
     <string name="alert_clear_cache">Vider le cache</string>
-    <string name="alert_title_config">Options de flash</string>
     <string name="alert_list">Sélectionnez une liste</string>
     <string name="alert_nolist_message">No custom list found</string>
-    <string name="alert_premium_title">Fonction Premium</string>
-    <string name="alert_premium_message">"C'est une fonctionnalité avancée. Veuillez acheter la version sans réclames.\n\nAlternativement, vous pouvez regarder une annonce vidéo pour débloquer cette fonctionnalité pour cette session."</string>
-    <string name="alert_upgrade">Acheter</string>
-    <string name="alert_play_ad">Regarder la vidéo</string>
     <string name="alert_newlist">Créer une nouvelle liste</string>
     <string name="alert_newlist_title">Nouvelle liste personnalisée</string>
     <string name="alert_newlist_message">Enter a name for your custom app list</string>
@@ -140,8 +99,6 @@
     <string name="toast_error_nolist">No list found</string>
     <string name="toast_error_existinglist">This list already exists!</string>
     <string name="toast_newlist_failed">Error creating list</string>
-    <string name="toast_error_videoad">Error playing video ad. Please check your internet connection and ad-block settings and try again!</string>
-
 
 
     <!--Advanced reboot-->
@@ -168,29 +125,17 @@
 
 
     <!--Build.prop Editor-->
-    <string name="alert_reboot_title">Redémarrer</string>
     <string name="alert_reboot_later">Later</string>
-    <string name="alert_reboot_message">Reboot now to make your changes effective?</string>
-    <string name="alert_reboot_message2">To make your changes effective, you need to reboot your device.\n\nReboot now?</string>
-    <string name="toast_version">This feature is currently only available for Android 5.0+</string>
 
     <!--General dialogs-->
-    <string name="alert_title_root">Root requis</string>
     <string name="alert_root">"Cette application requiert d'accès root"</string>
     <string name="alert_yes">Oui</string>
-    <string name="alert_sure">"Bien Sûr"</string>
     <string name="alert_no">Non</string>
     <string name="alert_no_thanks">Non, merci</string>
     <string name="alert_ok">"D'accord"</string>
-    <string name="alert_save">Sauvegarder</string>
-    <string name="alert_discard">Jeter</string>
     <string name="alert_cancel">Annuler</string>
     <string name="alert_continue">Continuer</string>
     <string name="search_title">Chercher</string>
-    <string name="status_requesting_root">"Demande d'accès au ROOT en cours"</string>
-    <string name="status_requesting_write">"Demande d'accès à la modification de fichiers en cors"</string>
-    <string name="status_load_main">Chargement de la page principale</string>
-    <string name="btn_cancel">Annuler</string>
     <string name="toast_error">Il y avait une erreur</string>
 
 
@@ -211,16 +156,10 @@
     <string name="adb_connect">Use \"adb connect %s:5555\" to connect to this device</string>
     <string name="spellcheck_title">Vérification orthographique</string>
     <string name="spellcheck_summary">Activer ou désactiver la vérification orthographique (soulignements rouges)</string>
-    <string name="mountrw_title">Monter System R/W</string>
-    <string name="mountrw_summary">Monter la partition système (/system) lecture-écriture</string>
-
 
 
     <!-- Account -->
-    <string name="loading">Loading…</string>
 
-    <string name="title_status">Status</string>
-    <string name="chanced_device">Changed your device?</string>
     <string name="language_title">Changer la langue du système</string>
     <string name="alert_select_language">Sélectionnez votre langue</string>
     <string name="alert_hint_title">Allusion</string>
@@ -251,18 +190,7 @@
     <string name="alert_reboot_safemode">Restarting in Safe Mode</string>
     <string name="alert_safemode_title">Reboot to Safe Mode</string>
     <string name="alert_safemode_message">Do you really want to reboot your device in safe mode? Only system apps will be loaded.\n\nTo exit safe mode, just reboot your device again.</string>
-    <string name="action_wiki">Aide</string>
-    <string name="action_bloatware">Report bloatware</string>
 
-    <string name="alert_details">Show details</string>
-    <string name="toast_feedback">Thank you for your feedback!</string>
-    <string name="number_reports">%d reports</string>
-    <string name="safe_percentage">%d %% safe to remove</string>
-    <string name="bloatware_found">%1$d apps found</string>
-    <string name="menu_all">All</string>
-    <string name="menu_none">None</string>
-    <string name="alert_uninstalling_pkg">Uninstalling %s</string>
-    <string name="toast_no_selection">No app selected</string>
     <string name="action_dark">Mode sombre</string>
     <string name="action_details">Détails</string>
     <string name="app_title">ToolCase by cpu82</string>

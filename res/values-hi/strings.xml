@@ -2,41 +2,22 @@
 <resources>
     
     <string name="app_name">ToolCase</string>
-    <string name="action_pro">विज्ञापन हटाएँ</string>
     <string name="action_about">अबाउट</string>
     <string name="action_translate">अनुवाद</string>
     <string name="action_share">साझा करें</string>
-    <string name="action_follow">का पालन करें</string>
-    <string name="action_account">उपयोगकर्ता खाता</string>
-    <string name="action_settings">सेटिंग्स</string>
     <string name="title_advanced_reboot">उन्नत रीबूट</string>
-    <string name="title_initd">Init.d एमुलेटर</string>                               
-    <string name="title_root">कोई रूट एक्सेस नहीं</string>
-    <string name="title_flasher">फ़्लैश विज़ार्ड</string>
     <string name="title_buildprop">Build.prop एडिटर</string>
-    <string name="title_misc">विविध</string>
     <string name="title_activity_app_manager">एप्प मैनेजर</string>
     <string name="title_activity_app">एप्लीलेशन की जानकारी</string>
     <string name="title_activity_reboot">उन्नत रिबूट</string>
-    <string name="title_activity_init_d">Init.d का अनुकरण</string>
-    <string name="title_activity_editor">संपादक</string>
-    <string name="title_activity_build_prop">Build.prop एडिटर</string>
-    <string name="title_activity_misc">विविध उपकरण</string>
     <string name="alert_translate_title">ऐप अनुवाद</string>
     <string name="alert_translate_message">क्या आप अपनी भाषा में इस ऐप के अनुवाद में योगदान देना चाहेंगे?</string>
     <string name="alert_translate_yes">हां, खुशी से</string>
     <string name="alert_translate_no">नहीं, धन्यवाद</string>
     <string name="summary_app_manager">उपयोगकर्ता और सिस्टम एप्लिकेशन प्रबंधित करें</string>
     <string name="summary_reboot">रिबूट, रिबूट में रीबूट या बूटलोडर मोड</string>
-    <string name="summary_root">यह एप रुट एक्सेस के बिना अपना काम नही कर सकती. अधिक जानकारी के लिए क्लिक करें!</string>
     <string name="summary_buildprop">अपने ROM के बिल्ड गुणों को संपादित करें</string>
-    <string name="summary_initd">स्टार्टअप पर स्क्रिप्ट चलाएं</string>
-    <string name="summary_misc">विविध उपकरण</string>
-    <string name="alert_premium">प्रीमियम के लिए उन्नयन के लिए धन्यवाद!</string>
-    <string name="alert_upgrade_title">अपग्रेड</string>
-    <string name="alert_upgrade_message">क्या आप विज्ञापनों के बिना संस्करण को अपडेट करना चाहते हैं?</string>
     <string name="message_share">"%s पर एक नज़र डालें </string>
-    <string name="ad_failed">डेवलपर्स का समर्थन करने के लिए, विज्ञापनों के बिना संस्करण में अपडेट करें</string>
 
 
     <string name="apps_total">सभी एप्लिकेशन (%1$d)</string>
@@ -61,17 +42,13 @@
     <string name="action_sort_by_package">पैकेज से सॉर्ट करें</string>
     <string name="action_sort_by_appsize">Apk आकार द्वारा सॉर्ट करें</string>
     <string name="action_sort_by_datasize">डेटा का आकार द्वारा सॉर्ट करें</string>
-    <string name="action_sort_by_totalsize">कुल आकार द्वारा सॉर्ट करें</string>    
-    <string name="action_title">एक क्रिया चुनें</string>
+    <string name="action_sort_by_totalsize">कुल आकार द्वारा सॉर्ट करें</string>
     <string name="action_uninstall">की स्थापना रद्द करें</string>
     <string name="action_freeze">अक्षम करें</string>
     <string name="action_unfreeze">सक्षम करें</string>
     <string name="action_clear_data">क्लियर डेटा</string>
     <string name="action_clear_cache">कैशे साफ़ करें</string>
     <string name="action_extract">एक्सट्रेक्ट</string>
-    <string name="action_convert_system">Convert to system app</string>
-    <string name="action_convert_user">Convert to user app</string>
-    <string name="action_integrate_update">Integrate update to system</string>
     <string name="action_multiselect">एकाधिक चयन</string>
     <string name="action_customlist">कस्टम सूची में जोड़ें</string>
     <string name="action_delete_list">वर्तमान सूची हटाएँ</string>
@@ -79,7 +56,6 @@
     <string name="app_disabled">विकलांग</string>
     <string name="appinfo_name">नाम:</string>
     <string name="appinfo_pkg">पैकेज:</string>
-    <string name="appinfo_status">स्थिति:</string>
     <string name="appinfo_version">संस्करण:</string>
     <string name="appinfo_path">पथ:</string>
     <string name="appinfo_memory">स्मृति उपयोग</string>
@@ -90,37 +66,20 @@
     <string name="meminfo_data">डेटा:</string>
     <string name="meminfo_extdata">डेटा (ext.):</string>
     <string name="meminfo_cache">कैश:</string>
-    <string name="alert_freeze_title">एप्लिकेशन को अक्षम करें</string>
-    <string name="alert_unfreeze_title">एप्लिकेशन को सक्षम करें</string>
     <string name="alert_attention">ध्यान</string>
-    <string name="alert_cache_title">स्पष्ट अनुप्रयोग कैश</string>
     <string name="alert_data_title">स्पष्ट ऐप डेटा</string>
     <string name="alert_data_message">सभी अनुप्रयोग डेटा हो जाएगा स्थायी रूप से, फ़ाइलें आदि app सेटिंग्स सहित, नष्ट कर दिया।</string>
-    <string name="alert_extract_title">एक्सट्रेक्ट Apk</string>
     <string name="alert_extract_message">"Do you want to extract the apk file of this app?\n\nYou'll find the file under:\n\n \"/sdcard/Toolcase/Extracted\""</string>
     <string name="alert_integrate_update">क्या आप सिस्टम के लिए इस अद्यतन को एकीकृत करने के लिए चाहते हैं?</string>
-    <string name="alert_overwrite_title">नोटिस</string>
-    <string name="alert_overwrite_message">This app already exists. Do you want to overwrite the existing app?</string>
-    <string name="alert_overwrite_sysapp_message">This system app already exists.\n\nOverwriting system apps may corrupt your system. In that case, you may need to reflash your ROM.\n\nDo you want to overwrite the existing app?</string>
-    <string name="alert_updated_sysapp_message">This is an updated system app. Please uninstall the update first or try installing as user app.</string>
-    <string name="alert_uninstall_title">अनुप्रयोग की स्थापना रद्द करें</string>
-    <string name="alert_uninstall_system_title">सिस्टम अनुप्रयोग की स्थापना रद्द करें</string>
     <string name="alert_uninstall_message">क्या आप वाकई इस एप्लिकेशन को अनइंस्टॉल करना चाहते हैं?</string>
     <string name="alert_uninstall_system_message">क्या आप वाकई इस <b>सिस्टम एप्लिकेशन</b> की स्थापना रद्द करना चाहते हैं?\nध्यान रखें कि गलत अनुप्रयोगों को हटाने से गंभीर समस्या हो सकती है, इस स्थिति में आपको पूरे ROM को रीफ़्रेश करने की आवश्यकता हो सकती है।</string>
     <string name="alert_uninstalling">की स्थापना रद्द करने</string>
-    <string name="alert_installing">स्थापित कर रहा है</string>
-    <string name="alert_install_success">स्थापना सफ़ल</string>
     <string name="alert_enabling">सक्षम करना</string>
     <string name="alert_disabling">अक्षम करना</string>
     <string name="alert_clear_data">अनुप्रयोग डेटा को हटाने के</string>
-    <string name="alert_clear_cache">अनुप्रयोग कैश को साफ़ करना</string>    
-    <string name="alert_title_config">फ्लैश विकल्प</string>
+    <string name="alert_clear_cache">अनुप्रयोग कैश को साफ़ करना</string>
     <string name="alert_list">कस्टम सूची का चयन करें</string>
     <string name="alert_nolist_message">कोई कस्टम सूची नहीं मिली</string>
-    <string name="alert_premium_title">प्रीमियम सुविधा</string>
-    <string name="alert_premium_message">यह एक प्रीमियम सुविधा है! विज्ञापन के बिना संस्करण में अपडेट करें!\n\nवैकल्पिक रूप से, आप इस सत्र के लिए इस सुविधा को अनलॉक करने के लिए एक वीडियो विज्ञापन देख सकते हैं।</string>
-    <string name="alert_upgrade">नवीनीकरण</string>
-    <string name="alert_play_ad">वीडियो देखें</string>
     <string name="alert_newlist">नई सूची बनाएँ</string>
     <string name="alert_newlist_title">नई कस्टम सूची</string>
     <string name="alert_newlist_message">अपने कस्टम अनुप्रयोग सूची के लिए कोई नाम दर्ज करें</string>
@@ -139,7 +98,6 @@
     <string name="toast_error_nolist">कोई सूची नहीं मिली</string>
     <string name="toast_error_existinglist">इस सूची पहले से मौजूद है!</string>
     <string name="toast_newlist_failed">सूची बनाने में त्रुटि</string>
-    <string name="toast_error_videoad">Error playing video ad. Please check your internet connection and ad-block settings and try again!</string>
     <string name="alert_hint_title">Hint</string>
     <string name="alert_hint_message">You can also use quick actions on apps.\n\nOpen the quick actions menu by long-pressing a list entry!</string>
 
@@ -164,30 +122,17 @@
     <string name="alert_fastboot_message">क्या आप वाकई अपने फोन को बूटलोडर मोड में पुनरारंभ करना चाहते हैं? \n\nयह सुविधा कुछ रोम में अक्षम हो सकती है।</string>
 
 
-    <string name="alert_reboot_title">रीबूट करें</string>
     <string name="alert_reboot_later">बाद में</string>
-    <string name="alert_reboot_message">अब आपके परिवर्तन प्रभावी करने के लिए रीबूट करें?</string>
-    <string name="alert_reboot_message2">अपने परिवर्तन प्रभावी बनाने के लिए, आपको अपने डिवाइस को रिबूट करना होगा।\n\nअब रिबूट करें?</string>
 
-    <string name="toast_version">यह सुविधा वर्तमान में केवल Android 5.0 + के लिए उपलब्ध है</string>
 
-    
-    <string name="alert_title_root">रूट की आवश्यकता</string>
     <string name="alert_root">इस एप्लिकेशन को रूट एक्सेस की आवश्यकता है</string>
     <string name="alert_yes">हाँ</string>
-    <string name="alert_sure">यकीन है, मैं में रहा हूँ</string>
     <string name="alert_no">नहीं</string>
     <string name="alert_no_thanks">नहीं धन्यवाद</string>
     <string name="alert_ok">ठीक है</string>
-    <string name="alert_save">सहेजें</string>
-    <string name="alert_discard">छोड़ना</string>
     <string name="alert_cancel">रद्द करना</string>
     <string name="alert_continue">जारी रखें</string>
     <string name="search_title">खोज</string>
-    <string name="status_requesting_root">रुट एक्सेस जाँच रहे है</string>
-    <string name="status_requesting_write">लेखन पहुंच की जांच करना</string>
-    <string name="status_load_main">लोड हो रहा मुख्य स्क्रीन</string>
-    <string name="btn_cancel">रद्द करना</string>
     <string name="toast_error">कोई त्रुटि उत्पन्न हुई</string>
 
 
@@ -206,16 +151,10 @@
     <string name="adb_connect">Use \"adb connect %s:5555\" to connect to this device</string>
     <string name="spellcheck_title">वर्तनी जाँच</string>
     <string name="spellcheck_summary">को सक्षम या अक्षम करें वर्तनी जाँच (लाल रेखांकन)</string>
-    <string name="mountrw_title">Mount System R/W</string>
-    <string name="mountrw_summary">Mount system partition (/system) readable/writable instead of read-only</string>
     <string name="language_title">सिस्टम भाषा परिवर्तित करें</string>
     <string name="alert_select_language">भाषा का चयन करें</string>
 
 
-    <string name="loading">Loading…</string>
-
-    <string name="title_status">Status</string>
-    <string name="chanced_device">Changed your device?</string>
     <string name="action_rate">रेट करें</string>
     <string name="alert_improve">What can we do better?</string>
     <string name="alert_great">Great!</string>
@@ -242,18 +181,7 @@
     <string name="alert_reboot_safemode">Restarting in Safe Mode</string>
     <string name="alert_safemode_title">Reboot to Safe Mode</string>
     <string name="alert_safemode_message">Do you really want to reboot your device in safe mode? Only system apps will be loaded.\n\nTo exit safe mode, just reboot your device again.</string>
-    <string name="action_wiki">सहायता</string>
-    <string name="action_bloatware">Report bloatware</string>
 
-    <string name="alert_details">Show details</string>
-    <string name="toast_feedback">Thank you for your feedback!</string>
-    <string name="number_reports">%d reports</string>
-    <string name="safe_percentage">%d %% safe to remove</string>
-    <string name="bloatware_found">%1$d apps found</string>
-    <string name="menu_all">All</string>
-    <string name="menu_none">None</string>
-    <string name="alert_uninstalling_pkg">Uninstalling %s</string>
-    <string name="toast_no_selection">No app selected</string>
     <string name="action_dark">डार्क मोड</string>
     <string name="action_details">विवरण</string>
     <string name="app_title">ToolCase by cpu82</string>
