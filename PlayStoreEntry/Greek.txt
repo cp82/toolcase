@@ -1,113 +1,113 @@
-﻿TITLE
+TITLE
 *****
 
-ToolCase - Device Info, App Manager, Reboot
+ToolCase - Πληρ. συσκευής, Διαχ. εφαρμ. Επανεκκίνηση
 
 SHORT DESCRIPTION
 *****************
 
-Easily manage your apps, view device info, boot into recovery or bootloader
+Εύκολη διαχείριση εφαρμογών, προβολή πληροφ. συσκευής, εκκίνηση σε recovery ή bootloader
 
 FULL DESCRIPTION
 ****************
 
-<b>Device Info:</b>
-★ Overview
-&raquo; Device Overview
-&raquo; RAM Usage
-&raquo; Internal Memory Usage
-&raquo; Battery Level and Capacity
+<b>Πληροφορίες συσκευής:</b>
+★ Επισκόπηση
+&raquo; Επισκόπηση συσκευής
+&raquo; Χρήση RAM
+&raquo; Χρήση Εσωτερικού χώρου
+&raquo; Επίπεδο και χωρητικότητα μπαταρίας
 
-★ Device
-&raquo; Device Name
-&raquo; Model
-&raquo; Manufacturer
-&raquo; Brand
-&raquo; Device
-&raquo; Board
-&raquo; Platform
-&raquo; Hardware
-&raquo; Device Fingerprint
-&raquo; Network Operator
+★ Συσκευή
+&raquo; Όνομα συσκευής
+&raquo; Μοντέλο
+&raquo; Κατασκευαστής
+&raquo; Μάρκα
+&raquo; Συσκευή
+&raquo; Πλακέτα
+&raquo; Πλατφόρμα
+&raquo; Υλικό
+&raquo; Αποτύπωμα συσκευής
+&raquo; Φορέας δικτύου
 
-★ System
-&raquo; Android Version and Codename
-&raquo; API Level
-&raquo; Build
-&raquo; Build ID
-&raquo; Incremental Version
-&raquo; MIUI Version (if applicable)
-&raquo; Security Patch Level
-&raquo; Baseband Version
-&raquo; Kernel Version
-&raquo; Java VM Type and Version
-&raquo; Bootloader Version
-&raquo; Root Status
-&raquo; OpenGL ES Version
+★ Σύστημα
+&raquo; Έκδοση Android και Κωδικό όνομα
+&raquo; Επίπεδο API
+&raquo; Δομή
+&raquo; ID δομής
+&raquo; Βαθμιαία έκδοση
+&raquo; Έκδοση MIUI (αν ισχύει)
+&raquo; Επίπεδο ενημέρωσης ασφαλείας
+&raquo; Έκδοση baseband
+&raquo; Έκδοση πυρήνα
+&raquo; Τύπος και έκδοση Java VM
+&raquo; Έκδοση bootloader
+&raquo; Κατάσταση Root
+&raquo; Έκδοση OpenGL ES
 
 ★ SoC
-&raquo; Processor
-&raquo; Hardware
-&raquo; Cluster
-&raquo; Process
+&raquo; Επεξεργαστής
+&raquo; Υλικό
+&raquo; Σύμπλεγμα
+&raquo; Διεργασία
 &raquo; ABIs
-&raquo; Number of Cores
-&raquo; Clock Speed
-&raquo; Scaling Governor
-&raquo; GPU Vendor
-&raquo; GPU Renderer
+&raquo; Αριθμός πυρήνων
+&raquo; Ταχύτητα ρολογιού
+&raquo; Ρυθμιστής κλιμάκωσης
+&raquo; Προμηθευτής GPU
+&raquo; Απόδοση GPU
 
-★ Battery
-&raquo; Health
-&raquo; Level
-&raquo; Charging State
-&raquo; Power Source
-&raquo; Battery Technology
-&raquo; Temperature
-&raquo; Voltage
-
-
-<b>App Manager:</b>
-★ Sort apps by:
-&raquo; Name
-&raquo; Package name
-&raquo; App or data size
-&raquo; Install time
-★ Filter apps by:
-&raquo; System/User apps
-&raquo; Enabled/Disabled apps
-&raquo; Updated system apps
-&raquo; Custom list
-★ Open in system app manager
-★ Uninstall user apps
-★ Install apk files
-★ Open in Google Play
-★ Share app link
+★ Μπαταρία
+&raquo; Υγεία
+&raquo; Επίπεδο
+&raquo; Κατάσταση φόρτισης
+&raquo; Πηγή ενέργειας
+&raquo; Τεχνολογία μπαταρίας
+&raquo; Θερμοκρασία
+&raquo; Τάση
 
 
-<b>Additional Features in Expert Mode (ROOT REQUIRED)</b>
-
-<b>App Manager:</b>
-★ Enable/disable (freeze) apps
-★ Clear data or cache
-★ Extract apk file
-★ Batch operations
-
-<b>Advanced Reboot:</b>
-★ Standard reboot
-★ Soft Reboot
-★ Power Off
-★ Reboot to recovery
-★ Reboot to bootloader (fastboot)
-★ Reboot to safe mode
-
-<b>ADB over WIFI:</b>
-★ Enable wireless debugging
+<b>Διαχειριστής εφαρμογών:</b>
+★ Ταξινόμηση κατά:
+&raquo; Ονομα
+&raquo; Ονομα πακέτου
+&raquo; Εφαρμογή ή μέγεθος δεδομένων
+&raquo; Χρόνο εγκατάστασης
+★ Φιλτράρισμα κατά:
+&raquo; Εφαρμ. Συστήματος/Χρήστη
+&raquo; Ενεργές/Ανενεργές εφαρμογές
+&raquo; Ενημερωμένες εφαρμ. συστήματος
+&raquo; Προσαρμοσμένη λίστα
+★ Άνοιγμα σε Διαχειριστή εφαρμ. συστήματος
+★ Απεγκατάσταση εφαρμογών χρήστη
+★ Εγκατάσταση αρχείων apk
+★ Άνοιγμα του Google Play
+★ Κοινή χρήση συνδέσμου εφαρμογής
 
 
+<b>Πρόσθετες δυνατότητες σε Ειδική Λειτουργία (ROOT ΑΠΑΙΤΕΊΤΑΙ)</b>
 
-<b>Permissions</b>
+<b>Διαχειριστής εφαρμογών:</b>
+★ Ενεργοπ/ση/Απενεργοπ/ση (πάγωμα) εφαρμογών
+★ Εκκαθάριση Δεδομένων ή Προσωρινής μνήμης
+★ Εξαγωγή αρχείου APK
+★ Ομαδικές εργασίες
 
-Following permissions are required in order to handle apk files:
+<b>Προηγμένη επανεκκίνηση:</b>
+★ Τυπική επανεκκίνηση
+★ Επανεκκίνηση λογισμικού
+★ Απενεργοποίηση
+★ Επανεκκίνηση σε recovery
+★ Επανεκκίνηση σε bootloader (fastboot)
+★ Επανεκκίνηση σε Ασφαλή λειτουργία
+
+<b>ADB μέσω WIFI:</b>
+★ Ενεργοποίηση ασύρματου εντοπισμού σφαλμάτων
+
+
+
+<b>Δικαιώματα</b>
+
+Απαιτούνται τα ακόλουθα δικαιώματα για το χειρισμό αρχείων apk:
 ★ READ_EXTERNAL_STORAGE
 ★ WRITE_EXTERNAL_STORAGE
