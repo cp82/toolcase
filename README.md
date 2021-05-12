@@ -54,21 +54,24 @@ You find the template in the folder "PlayStoreEntry" under "yourlanguage.txt".
 ## Languages and country codes
 
 ### Done
+* English, US - en-US
+* German - de
+* Greek - el
+* Portuguese, Brazilian - pt-BR
+* Spanish - es
+
+
+### Partially done
 * Arabic - ar
 * Chinese simplified - zh-CN
 * Chinese traditional - zh-TW
 * Czech - cs
-* English, US - en-US
 * French - fr
-* German - de
-* Greek - el
 * Hindi - hi
 * Italian - it
 * Malay - ms
 * Polish - pl
-* Portuguese, Brazilian - pt-BR
 * Russian - ru
-* Spanish - es
 * Turkish - tr
 * Vietnamese - vi
 
