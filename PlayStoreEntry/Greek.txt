@@ -1,12 +1,12 @@
 TITLE
 *****
-
-ToolCase - Πληρ. συσκευής, Διαχ. εφαρμ. Επανεκκίνηση
+<!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+ToolCase - Πληρ. συσκ, Διαχ. εφαρ, Επανεκκίνηση
 
 SHORT DESCRIPTION
 *****************
-
-Εύκολη διαχείριση εφαρμογών, προβολή πληροφ. συσκευής, εκκίνηση σε recovery ή bootloader
+<!-- Short description has to have less than 80 chars -->
+Εύκολη Διαχείριση εφαρμ Προβολή πληρ συσκευής Εκκίνηση σε recovery ή bootloader
 
 FULL DESCRIPTION
 ****************
